@@ -151,7 +151,7 @@ export default function Page() {
                   Check out my Research , Articles & Projects
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I've written various Research Papers, Articles, & Projects, covering diverse subjects. Here are some of my standout contributions.
+                  I&apos;ve written various Research Papers, Articles, & Projects, covering diverse subjects. Here are some of my standout contributions.
                 </p>
               </div>
             </div>
