@@ -126,7 +126,7 @@ export const DATA = {
       school: "Reva University",
       href: "https://www.reva.edu.in/",
       degree: "B.Tech Mechatronics",
-      logoUrl: "/REVA.PNG",
+      logoUrl: "/REVA.png",
       start: "2023",
       end: "2019",
     },
@@ -327,7 +327,7 @@ export const DATA = {
       description:
         "Developing an innovative system that leverages swarm intelligence to enhance the coordination and efficiency of distributed robotic networks",
       image:
-        "",
+        "/Group 12.png",
       links: [
         {
           title: "Source",
@@ -343,7 +343,7 @@ export const DATA = {
       description:
         "Utilizing generative AI to optimize and automate design and manufacturing processes for enhanced efficiency and creativity",
       image:
-        "",
+        "/Group 11.png",
       links: [
         {
           title: "Source",
@@ -359,7 +359,7 @@ export const DATA = {
       description:
         "Creating an advanced bionic arm equipped with LiDAR technology to enhance search and rescue operations through improved navigation and object detection.",
       image:
-        "",
+        "/Group 13.png",
       links: [
         {
           title: "Source",
@@ -375,7 +375,7 @@ export const DATA = {
       description:
         "Developing autonomous mission planning systems for drones utilizing PIXHAWK technology to optimize flight paths and enhance operational efficiency.",
       image:
-        "",
+        "/Group 14.png",
       links: [
         {
           title: "Source",
@@ -391,7 +391,7 @@ export const DATA = {
       description:
         "Implementing ultrasonic technology for real-time crack detection in 3D-printed structures to ensure quality and integrity during manufacturing.",
       image:
-        "",
+        "/Group 15.png",
       links: [
         {
           title: "Source",
@@ -413,7 +413,7 @@ export const DATA = {
       description:
         "Exploring the intricate interplay of emotions through a scientific lens to understand their impact on behavior and decision-making.",
       image:
-        "",
+        "/Group 20.png",
       links: [
         {
           title: "LinkedIn",
@@ -434,7 +434,7 @@ export const DATA = {
       description:
         "Examining the influence of cognitive biases on decision-making processes to improve awareness and enhance critical thinking.",
       image:
-        "",
+        "/Group 16.png",
       links: [
         {
           title: "LinkedIn",
@@ -455,7 +455,7 @@ export const DATA = {
       description:
        "Developing an emotion-responsive smart lighting system that adapts illumination based on user emotions to create personalized and immersive environments.",
       image:
-        "",
+        "/Group 17.png",
       links: [
         {
           title: "Source",
@@ -471,7 +471,7 @@ export const DATA = {
       description:
        "Creating a stress monitoring system for pilots to assess and manage their mental well-being, ensuring safer flight operations.",
       image:
-        "",
+        "/Group 18.png",
       links: [
         {
           title: "Source",
@@ -487,7 +487,7 @@ export const DATA = {
       description:
        "Developing a comprehensive monitoring system for aquaponics to optimize environmental conditions and enhance the growth of plants and fish.",
       image:
-        "",
+        "/Group 19.png",
       links: [
         {
           title: "Source",

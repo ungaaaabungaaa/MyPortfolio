@@ -2,7 +2,6 @@ import { HackathonCard } from "@/components/hackathon-card";
 import {BlurFade} from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import {HyperText} from "@/components/magicui/hyper-text";
-import Meteors from "@/components/magicui/meteors";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
