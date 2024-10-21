@@ -121,7 +121,7 @@ export default function Page() {
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
-          <HyperText className="text-xl font-bold" text="Education & Relevant CourseWork" duration={600}></HyperText>
+          <HyperText className="text-xl font-bold" text="Education" duration={600}></HyperText>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
