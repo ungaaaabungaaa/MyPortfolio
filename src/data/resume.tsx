@@ -42,8 +42,7 @@ export const DATA = {
   "Digital Marketing"
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/", icon: HomeIcon, label: "Home" }
   ],
   contact: {
     email: "hello@example.com",

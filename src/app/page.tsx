@@ -43,7 +43,6 @@ export default function Page() {
         <meta name="twitter:image" content="/twitter-image.jpg" />
     </Head>
     <main className="flex flex-col min-h-[100dvh] space-y-10">
-      <Meteors number={15} />
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
