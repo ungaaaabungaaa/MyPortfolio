@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:no-check": "NEXT_DISABLE_TS_ERRORS=true next build"
+    "build:no-check": "NEXT_DISABLE_TS_ERRORS=true next build",
+    "build:skip-eslint": "ESLINT_NO_DEV_ERRORS=true next build"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.4",
