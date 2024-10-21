@@ -126,7 +126,7 @@ export const DATA = {
       school: "Reva University",
       href: "https://www.reva.edu.in/",
       degree: "B.Tech Mechatronics",
-      logoUrl: "/REVA.png",
+      logoUrl: "/Reva.png",
       start: "2023",
       end: "2019",
     },
