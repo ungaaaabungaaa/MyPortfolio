@@ -8,9 +8,9 @@ export const DATA = {
   location: "Bengaluru, India",
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   description:
-    "Versatile Mechatronics Engineer skilled in Full Stack Development, Machine Learning, Cybersecurity, & DevOps. Expertise in UI/UX design, IT support, digital marketing, and project management for complete tech solutions",
+    "Transitioning into a comma, Full stops? They're universally unloved.",
   summary:
-    "A dynamic and highly skilled Mechatronics Engineer with a diverse background in Full Stack Development, Machine Learning, Data Science, Cybersecurity, & DevOps. With a passion for innovation, I excel at integrating cutting-edge technology into various domains, from UI/UX design to IT support and digital marketing. My expertise in managing complex projects and delivering scalable, secure solutions makes me a versatile professional ready to tackle challenges across multiple sectors. With strong technical and leadership skills, I am committed to driving success in multidisciplinary teams and delivering impactful results",
+    "Diving into Cosmology while learning Spline & Unreal Engine. Open to collaborations on Sass and always up for chats about Machine Learning, Quantum Computing, & Cybersecurity.",
   avatarUrl: "/me.jpg",
   skills: [
   "React",
