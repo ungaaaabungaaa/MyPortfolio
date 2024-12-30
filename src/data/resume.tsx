@@ -8,42 +8,40 @@ export const DATA = {
   location: "Bengaluru, India",
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   description:
-    "Transitioning into a comma, Full stops? They're universally unloved.",
+    "Developed web applications reaching 5M+ users | Building Things To Scale 100x | RabbitMQ & Apache Kafka Be The Way",
   summary:
-    "Diving into Cosmology while learning Spline & Unreal Engine. Open to collaborations on Sass and always up for chats about Machine Learning, Quantum Computing, & Cybersecurity.",
+    "Breaking Things, reconfiguring systems, and tackling edge cases—thriving on challenges & building better solutions",
   avatarUrl: "/me.jpg",
   skills: [
-  "React",
-  "Next.js",
-  "Typescript",
-  "Node.js",
-  "Python",
-  "Go",
-  "Postgres",
-  "Docker",
-  "Kubernetes",
-  "Java",
-  "C++",
-  "Azure",
-  "Google Cloud",
-  "Business Intelligence",
-  "Cybersecurity",
-  "Project Management",
-  "IT Support",
-  "E-Commerce",
-  "Data Analytics",
-  "AI-Powered Performance Ads",
-  "Full Stack Development",
-  "DevOps",
-  "Data Engineering",
-  "Deep Learning",
-  "Cloud Engineering",
-  "UX Design",
-  "Digital Marketing"
+    "React",
+    "Next.js",
+    "Typescript",
+    "Node.js",
+    "Python",
+    "Go",
+    "Postgres",
+    "Docker",
+    "Kubernetes",
+    "Java",
+    "C++",
+    "Azure",
+    "Google Cloud",
+    "Business Intelligence",
+    "Cybersecurity",
+    "Project Management",
+    "IT Support",
+    "E-Commerce",
+    "Data Analytics",
+    "AI-Powered Performance Ads",
+    "Full Stack Development",
+    "DevOps",
+    "Data Engineering",
+    "Deep Learning",
+    "Cloud Engineering",
+    "UX Design",
+    "Digital Marketing",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" }
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "hello@example.com",
     tel: "+123456789",
@@ -84,6 +82,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Kemuri",
+      href: "https://kemuri.in/",
+      badges: [],
+      location: "Bengaluru, Karnataka, India · Remote",
+      title: "Software Enginner",
+      logoUrl: "/Kemuri.png",
+      start: "Dec 2024",
+      end: "Present",
+      description:
+        "Contributing to projects like Kuruco, a cloud-native service enabling front-end engineers to build high-performance, customizable solutions seamlessly integrated with external APIs. Looking forward to growing & making an impact with this dynamic team!",
+    },
+    {
       company: "CineFirm",
       href: "https://cinefirm.in",
       badges: [],
@@ -91,9 +101,9 @@ export const DATA = {
       title: "Full Stack Developer",
       logoUrl: "/Cinefirm.png",
       start: "Sep 2024",
-      end: "Present",
+      end: "Dec 2024 · 3 mos",
       description:
-      "Currently building a Next.js web app for Cinefirm to showcase their photography and videography services,\n along with a responsive booking system to onboard clients and schedule shoots seamlessly.\nLeveraging GSAP for smooth animations, Vercel for hosting, and the power of the Next.js framework,\nthe platform highlights Cinefirm's expertise in both event shoots and brand design,\nensuring all client needs are met with precision and creativity",
+        "Built a Next.js web app for Cinefirm to showcase their photography and videography services,\n along with a responsive booking system to onboard clients and schedule shoots seamlessly.\nLeveraging GSAP for smooth animations, Vercel for hosting, and the power of the Next.js framework,\nthe platform highlights Cinefirm's expertise in both event shoots and brand design,\nensuring all client needs are met with precision and creativity",
     },
     {
       company: "Ammas Pastries",
@@ -105,7 +115,7 @@ export const DATA = {
       start: "Jul 2023",
       end: "Aug 2024 · 1 yr 2 mos",
       description:
-      "Led the development of innovative web solutions tailored for the bakery industry.\nSpecializing in creating custom, scalable technology that enhances user experience and operational efficiency.\nReact Migration: Migrated the website to a React platform, significantly improving performance and user experience.\nNext.js Development: Built a comprehensive React application using Next.js, boosting functionality and SEO.\nWordPress Integration: Integrated WordPress CRM with the React app using REST APIs for streamlined content management and payment processing.\nPayment Solutions: Implemented cloud functions for secure Razorpay payment transactions.\nSEO & Accessibility: Enhanced website SEO and accessibility to improve reach and compliance.\nCentralized TV System: Developed a TV system for displaying new product launches in stores, increasing customer engagement.\nDynamic Delivery Charges: Integrated location-based delivery charges for precise and transparent cost calculation.",
+        "Led the development of innovative web solutions tailored for the bakery industry.\nSpecializing in creating custom, scalable technology that enhances user experience and operational efficiency.\nReact Migration: Migrated the website to a React platform, significantly improving performance and user experience.\nNext.js Development: Built a comprehensive React application using Next.js, boosting functionality and SEO.\nWordPress Integration: Integrated WordPress CRM with the React app using REST APIs for streamlined content management and payment processing.\nPayment Solutions: Implemented cloud functions for secure Razorpay payment transactions.\nSEO & Accessibility: Enhanced website SEO and accessibility to improve reach and compliance.\nCentralized TV System: Developed a TV system for displaying new product launches in stores, increasing customer engagement.\nDynamic Delivery Charges: Integrated location-based delivery charges for precise and transparent cost calculation.",
     },
     {
       company: "Hindustan Aeronautics Limited",
@@ -117,9 +127,8 @@ export const DATA = {
       start: "Jul 2022",
       end: "Aug 2022 · 2 mos",
       description:
-      "Assisting in the design and development of aerospace components.\nConducting research and analysis on various engineering projects.\nCollaborating with cross-functional teams to support ongoing projects.\nParticipating in technical discussions and providing innovative solutions.\nGaining hands-on experience with industry-standard tools and technologies.\nThis internship provided me with a deeper understanding of aerospace engineering and enhanced my technical and problem-solving skills",
-    }
-
+        "Assisting in the design and development of aerospace components.\nConducting research and analysis on various engineering projects.\nCollaborating with cross-functional teams to support ongoing projects.\nParticipating in technical discussions and providing innovative solutions.\nGaining hands-on experience with industry-standard tools and technologies.\nThis internship provided me with a deeper understanding of aerospace engineering and enhanced my technical and problem-solving skills",
+    },
   ],
   education: [
     {
@@ -141,7 +150,8 @@ export const DATA = {
     {
       school: "Google Certified",
       href: "#",
-      degree: "UX Design| Digital Marketing| E-Commerce| Data Analytics| AI-Powered Performance Ads| IT Support | Project Management | Business Intelligence | Cybersecurity | Cloud Engineer",
+      degree:
+        "UX Design| Digital Marketing| E-Commerce| Data Analytics| AI-Powered Performance Ads| IT Support | Project Management | Business Intelligence | Cybersecurity | Cloud Engineer",
       logoUrl: "/Google.png",
       start: "Online",
       end: "Certification",
@@ -149,7 +159,8 @@ export const DATA = {
     {
       school: "IBM Certified",
       href: "#",
-      degree: "Full Stack Software Developer |Data Analyst | DevOps & Software Engineering| Data Engineering| Deep Learning",
+      degree:
+        "Full Stack Software Developer |Data Analyst | DevOps & Software Engineering| Data Engineering| Deep Learning",
       logoUrl: "/IBM.png",
       start: "Online",
       end: "Certification",
@@ -165,7 +176,8 @@ export const DATA = {
     {
       school: "Udemy Certified",
       href: "#",
-      degree: "Machine Learning | Stock Analysis | Full Stack Web Development | Unity | Unreal Engine | Digital Marketing",
+      degree:
+        "Machine Learning | Stock Analysis | Full Stack Web Development | Unity | Unreal Engine | Digital Marketing",
       logoUrl: "/Udemy.png",
       start: "Online",
       end: "Certification",
@@ -178,7 +190,6 @@ export const DATA = {
       start: "Online",
       end: "Certification",
     },
-    
   ],
   projects: [
     {
@@ -216,8 +227,7 @@ export const DATA = {
         },
       ],
       image: "/Maintainece.jpeg",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Space Exploration Rover",
@@ -315,8 +325,7 @@ export const DATA = {
         },
       ],
       image: "/Sat.jpeg",
-      video:
-        "",
+      video: "",
     },
   ],
   hackathons: [
@@ -326,8 +335,7 @@ export const DATA = {
       location: "Research",
       description:
         "Developing an innovative system that leverages swarm intelligence to enhance the coordination and efficiency of distributed robotic networks",
-      image:
-        "/Group 12.png",
+      image: "/Group 12.png",
       links: [
         {
           title: "Source",
@@ -342,8 +350,7 @@ export const DATA = {
       location: "Research",
       description:
         "Utilizing generative AI to optimize and automate design and manufacturing processes for enhanced efficiency and creativity",
-      image:
-        "/Group 11.png",
+      image: "/Group 11.png",
       links: [
         {
           title: "Source",
@@ -358,8 +365,7 @@ export const DATA = {
       location: "Patent",
       description:
         "Creating an advanced bionic arm equipped with LiDAR technology to enhance search and rescue operations through improved navigation and object detection.",
-      image:
-        "/Group 13.png",
+      image: "/Group 13.png",
       links: [
         {
           title: "Source",
@@ -374,8 +380,7 @@ export const DATA = {
       location: "Patent",
       description:
         "Developing autonomous mission planning systems for drones utilizing PIXHAWK technology to optimize flight paths and enhance operational efficiency.",
-      image:
-        "/Group 14.png",
+      image: "/Group 14.png",
       links: [
         {
           title: "Source",
@@ -390,8 +395,7 @@ export const DATA = {
       location: "Patent",
       description:
         "Implementing ultrasonic technology for real-time crack detection in 3D-printed structures to ensure quality and integrity during manufacturing.",
-      image:
-        "/Group 15.png",
+      image: "/Group 15.png",
       links: [
         {
           title: "Source",
@@ -403,7 +407,6 @@ export const DATA = {
           icon: <Icons.medium className="h-4 w-4" />,
           href: "",
         },
-        
       ],
     },
     {
@@ -412,8 +415,7 @@ export const DATA = {
       location: "Medium | LinkedIn",
       description:
         "Exploring the intricate interplay of emotions through a scientific lens to understand their impact on behavior and decision-making.",
-      image:
-        "/Group 20.png",
+      image: "/Group 20.png",
       links: [
         {
           title: "LinkedIn",
@@ -433,8 +435,7 @@ export const DATA = {
       location: "Medium | LinkedIn",
       description:
         "Examining the influence of cognitive biases on decision-making processes to improve awareness and enhance critical thinking.",
-      image:
-        "/Group 16.png",
+      image: "/Group 16.png",
       links: [
         {
           title: "LinkedIn",
@@ -453,15 +454,14 @@ export const DATA = {
       dates: "ResearchGate | Figshare",
       location: "Research",
       description:
-       "Developing an emotion-responsive smart lighting system that adapts illumination based on user emotions to create personalized and immersive environments.",
-      image:
-        "/Group 17.png",
+        "Developing an emotion-responsive smart lighting system that adapts illumination based on user emotions to create personalized and immersive environments.",
+      image: "/Group 17.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "",
-        }
+        },
       ],
     },
     {
@@ -469,9 +469,8 @@ export const DATA = {
       dates: "ResearchGate | Figshare",
       location: "Research",
       description:
-       "Creating a stress monitoring system for pilots to assess and manage their mental well-being, ensuring safer flight operations.",
-      image:
-        "/Group 18.png",
+        "Creating a stress monitoring system for pilots to assess and manage their mental well-being, ensuring safer flight operations.",
+      image: "/Group 18.png",
       links: [
         {
           title: "Source",
@@ -485,9 +484,8 @@ export const DATA = {
       dates: "ResearchGate | Figshare",
       location: "Research",
       description:
-       "Developing a comprehensive monitoring system for aquaponics to optimize environmental conditions and enhance the growth of plants and fish.",
-      image:
-        "/Group 19.png",
+        "Developing a comprehensive monitoring system for aquaponics to optimize environmental conditions and enhance the growth of plants and fish.",
+      image: "/Group 19.png",
       links: [
         {
           title: "Source",
