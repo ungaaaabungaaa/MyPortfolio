@@ -16,7 +16,7 @@ export function CalPopup() {
       data-cal-namespace="quickchat"
       data-cal-link="ungaaaabungaaaa/quickchat"
       data-cal-config='{"layout":"month_view","theme":"auto"}'
-      className="inline-flex items-center rounded-lg lg:rounded-full bg-foreground text-background px-3 py-1 text-sm lg:px-9 lg:py-3 lg:text-lg space-x-2"
+      className="inline-flex items-center rounded-full bg-foreground text-background px-9 py-3 text-lg space-x-2"
     >
       <span>Schedule Meet</span>
       <Calendar size={16} />

@@ -13,6 +13,7 @@ import Markdown from "react-markdown";
 import Head from "next/head";
 import { CalPopup } from "@/components/cal";
 import Hyperspeed from "../../Hyperspeed/Hyperspeed";
+import { AnimatedTestimonialsDemo } from "./animated-testimonials";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -218,6 +219,18 @@ export default function Page() {
               ))}
             </div>
           </div>
+        </section>
+        <section id="contact">
+          <BlurFade delay={BLUR_FADE_DELAY * 16}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  My Apps
+                </h2>
+              </div>
+            </div>
+            <AnimatedTestimonialsDemo></AnimatedTestimonialsDemo>
+          </BlurFade>
         </section>
         <section id="hackathons">
           <div className="space-y-12 w-full py-12">
