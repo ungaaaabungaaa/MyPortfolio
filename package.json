@@ -34,10 +34,11 @@
     "rehype-stringify": "^10.0.0",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.0",
+    "sass": "^1.83.4",
     "shiki": "^1.7.0",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
-    "three": "^0.172.0",
+    "three": "^0.167.1",
     "unified": "^11.0.4"
   },
   "devDependencies": {
