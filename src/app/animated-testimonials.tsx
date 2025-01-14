@@ -4,24 +4,23 @@ export function AnimatedTestimonialsDemo() {
   const testimonials = [
     {
       quote:
-        "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
-      name: "Sarah Chen",
-      designation: "Product Manager at TechFlow",
-      src: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "React Native app, similar to BookMyShow, offering detailed navigation to event halls or locations using AR vision for a more immersive & interactive experience",
+      name: "MaSeat?",
+      designation: "PlayStore | AppStore",
+      src: "/app3.webp",
     },
     {
       quote:
-        "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
-      name: "Michael Rodriguez",
-      designation: "CTO at InnovateSphere",
-      src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "An OLLMA 3.2-powered education app that predicts recurring questions based on patterns from previous exams",
+      name: "Failerrrr",
+      designation: "Devloper Mode",
+      src: "/app1.webp",
     },
     {
-      quote:
-        "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
-      name: "Emily Watson",
-      designation: "Operations Director at CloudScale",
-      src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      quote: "Simple Dribble Inspired Clone AIRBNB",
+      name: "AIRBNB Clone",
+      designation: "Devloper Mode",
+      src: "/app2.webp",
     },
   ];
   return <AnimatedTestimonials testimonials={testimonials} />;
