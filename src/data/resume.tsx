@@ -16,7 +16,15 @@ export const DATA = {
     "React",
     "Next.js",
     "Typescript",
+    "Ollama",
+    "Hugging Face",
+    "LLM'S",
+    "LangChain",
+    "CMS",
+    "RaG",
     "Node.js",
+    "MongoDB",
+    "Casandra",
     "Python",
     "Go",
     "Postgres",
@@ -42,7 +50,6 @@ export const DATA = {
     "Digital Marketing",
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/Syed_Abdul_Muqeeth_Resume.pdf", icon: Download, label: "Resume" },
     {
       href: "https://cal.com/ungaaaabungaaaa/quickchat",
@@ -67,12 +74,12 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
-      Medium: {
-        name: "Medium",
-        url: "https://medium.com/@syed_abdul_muqeeth",
-        icon: Icons.medium,
-        navbar: true,
-      },
+      // Medium: {
+      //   name: "Medium",
+      //   url: "https://medium.com/@syed_abdul_muqeeth",
+      //   icon: Icons.medium,
+      //   navbar: true,
+      // },
       Youtube: {
         name: "Codepen",
         url: "",

@@ -11,13 +11,13 @@ export function AnimatedTestimonialsDemo() {
     {
       quote: "An OLLMA 3.2-powered education app",
       name: "Failerrrr",
-      designation: "Devloper Mode",
+      designation: "Github",
       src: "/app1.webp",
     },
     {
       quote: "Simple Dribble Inspired Clone AIRBNB",
-      name: "AIRBNB Clone",
-      designation: "Devloper Mode",
+      name: "Airbnb Clone",
+      designation: "Github",
       src: "/app2.webp",
     },
   ];

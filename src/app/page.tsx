@@ -1,4 +1,3 @@
-"use client";
 import { HackathonCard } from "@/components/hackathon-card";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -12,7 +11,8 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import Head from "next/head";
 import { CalPopup } from "@/components/cal";
-import Hyperspeed from "../../Hyperspeed/Hyperspeed";
+import { HyperSpeedx } from "@/hyperspeed";
+
 import { AnimatedTestimonialsDemo } from "./animated-testimonials";
 const BLUR_FADE_DELAY = 0.04;
 
@@ -295,7 +295,7 @@ export default function Page() {
                 </p>
                 <br></br>
                 <CalPopup></CalPopup>
-                <Hyperspeed />
+                <HyperSpeedx></HyperSpeedx>
               </div>
             </BlurFade>
           </div>
