@@ -228,7 +228,7 @@ export default function Page() {
                   AppStore
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  My APP's
+                  My APP&apos;s
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Trying Out Flutter & React Native.
