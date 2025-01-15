@@ -3,21 +3,21 @@ import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 export function AnimatedTestimonialsDemo() {
   const testimonials = [
     {
-      quote: "React Native app, similar to BookMyShow",
-      name: "MaSeat?",
-      designation: "PlayStore | AppStore",
+      quote: "React Native App, Similar To BookMyShow",
+      name: "MaSeat",
+      designation: "1.2.12",
       src: "/app3.webp",
     },
     {
-      quote: "An OLLMA 3.2-powered education app",
-      name: "Failerrrr",
-      designation: "Github",
+      quote: "An OLLMA 3.2-Powered Education App",
+      name: "Failer",
+      designation: "2.1.0",
       src: "/app1.webp",
     },
     {
       quote: "Simple Dribble Inspired Clone AIRBNB",
       name: "Airbnb Clone",
-      designation: "Github",
+      designation: "1.4.0",
       src: "/app2.webp",
     },
   ];
