@@ -223,10 +223,16 @@ export default function Page() {
         <section id="contact">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div>
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  AppStore
+                </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  My Apps
+                  My APP's
                 </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Trying Out Flutter & React Native.
+                </p>
               </div>
             </div>
             <AnimatedTestimonialsDemo></AnimatedTestimonialsDemo>
