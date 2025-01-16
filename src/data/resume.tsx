@@ -189,6 +189,24 @@ export const DATA = {
       end: "Certification",
     },
     {
+      school: "Nvidia",
+      href: "#",
+      degree:
+        "Accelerated Computing | Data Science | Deep Learning  | Generative AI/LLM | Graphics and Simulation | Infrastructure",
+      logoUrl: "/nvidia.png",
+      start: "Online Self Leaerning",
+      end: "Certification",
+    },
+    {
+      school: "IBM",
+      href: "#",
+      degree: "Qiskit | Quantum Algorithms | Quantum composer",
+      logoUrl: "Ibmcopy.png",
+      start: "Online Self Leaerning",
+      end: "Certification",
+    },
+
+    {
       school: "Udemy Certified",
       href: "#",
       degree:
