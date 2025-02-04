@@ -13,6 +13,7 @@ import Head from "next/head";
 import { CalPopup } from "@/components/cal";
 import { HyperSpeedx } from "@/hyperspeed";
 import { Safari } from "@/components/magicui/safari";
+import { AuroraText } from "@/components/magicui/AuroraText";
 
 import { AnimatedTestimonialsDemo } from "./animated-testimonials";
 const BLUR_FADE_DELAY = 0.04;
@@ -66,6 +67,7 @@ export default function Page() {
         />
         <meta name="twitter:image" content="/twitter-image.jpg" />
       </Head>
+
       <main className="flex flex-col min-h-[100dvh] space-y-10">
         <section id="hero">
           <div className="mx-auto w-full max-w-2xl space-y-8">
