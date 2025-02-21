@@ -338,7 +338,7 @@ export default function Page() {
                 </TypingAnimation>
                 <AnimatedSpan delay={6500} className="text-purple-500">
                   <span>
-                    🔑 Secret unlocked: You're awesome! Keep coding! 🚀
+                    🔑 Secret unlocked: You&apos;re awesome! Keep coding! 🚀
                   </span>
                 </AnimatedSpan>
 
@@ -356,7 +356,9 @@ export default function Page() {
 
                 <TypingAnimation delay={9000}>&gt; fortune</TypingAnimation>
                 <AnimatedSpan delay={9500} className="text-blue-500">
-                  <span>🔮 "A bug-free code is a myth, but you're close!"</span>
+                  <span>
+                    🔮 &quot;A bug-free code is a myth, but youre close!&quot;
+                  </span>
                 </AnimatedSpan>
 
                 <TypingAnimation delay={10000}>
