@@ -300,7 +300,7 @@ export default function Page() {
         </section>
 
         <section id="terminal">
-          <div className="flex min-h-0 flex-col gap-y-3">
+          <div className="flex min-h-0 flex-col gap-y-3 align-middle items-center">
             <BlurFade delay={BLUR_FADE_DELAY * 9}>
               <Terminal>
                 <TypingAnimation>&gt; whoami</TypingAnimation>
