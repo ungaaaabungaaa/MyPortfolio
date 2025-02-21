@@ -16,6 +16,11 @@ import { Safari } from "@/components/magicui/safari";
 import { AuroraText } from "@/components/magicui/AuroraText";
 
 import { AnimatedTestimonialsDemo } from "./animated-testimonials";
+import {
+  AnimatedSpan,
+  Terminal,
+  TypingAnimation,
+} from "@/components/magicui/terminal";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -129,12 +134,15 @@ export default function Page() {
         <section id="safari">
           <div className="flex min-h-0 flex-col gap-y-3">
             <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <Safari url="muqeeth.me" className="size-full"  imageSrc="/machinelearningpro.webp" />
+              <Safari
+                url="muqeeth.me"
+                className="size-full"
+                imageSrc="/machinelearningpro.webp"
+              />
             </BlurFade>
           </div>
         </section>
 
-    
         <section id="work">
           <div className="flex min-h-0 flex-col gap-y-3">
             <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -287,6 +295,84 @@ export default function Page() {
                   </BlurFade>
                 ))}
               </ul>
+            </BlurFade>
+          </div>
+        </section>
+
+        <section id="terminal">
+          <div className="flex min-h-0 flex-col gap-y-3">
+            <BlurFade delay={BLUR_FADE_DELAY * 9}>
+              <Terminal>
+                <TypingAnimation>&gt; whoami</TypingAnimation>
+                <AnimatedSpan delay={1500} className="text-green-500">
+                  <span>👤 Syed Abdul Muqeeth</span>
+                </AnimatedSpan>
+
+                <TypingAnimation delay={2000}>&gt; ls -a</TypingAnimation>
+                <AnimatedSpan delay={2500} className="text-green-500">
+                  <span>. .. projects experience skills secret-folder</span>
+                </AnimatedSpan>
+
+                <TypingAnimation delay={3000}>
+                  &gt; sudo rm -rf /
+                </TypingAnimation>
+                <AnimatedSpan delay={3500} className="text-red-500">
+                  <span>❌ Access denied. Nice try! 😆</span>
+                </AnimatedSpan>
+
+                <TypingAnimation delay={4000}>&gt; deploy</TypingAnimation>
+                <AnimatedSpan delay={4500} className="text-green-500">
+                  <span>🚀 Deploying portfolio... Done!</span>
+                </AnimatedSpan>
+
+                <TypingAnimation delay={5000}>&gt; joke</TypingAnimation>
+                <AnimatedSpan delay={5500} className="text-yellow-500">
+                  <span>
+                    😂 Why do programmers prefer dark mode? Because light
+                    attracts bugs!
+                  </span>
+                </AnimatedSpan>
+
+                <TypingAnimation delay={6000}>
+                  &gt; unlock_secret
+                </TypingAnimation>
+                <AnimatedSpan delay={6500} className="text-purple-500">
+                  <span>
+                    🔑 Secret unlocked: You're awesome! Keep coding! 🚀
+                  </span>
+                </AnimatedSpan>
+
+                <TypingAnimation delay={7000}>&gt; matrix</TypingAnimation>
+                <AnimatedSpan delay={7500} className="text-green-500">
+                  <span>💻 Launching Matrix mode... [██████████] 100%</span>
+                </AnimatedSpan>
+
+                <TypingAnimation delay={8000}>
+                  &gt; hack_the_mainframe
+                </TypingAnimation>
+                <AnimatedSpan delay={8500} className="text-red-500">
+                  <span>🚨 Intrusion detected! Aborting... 🔒</span>
+                </AnimatedSpan>
+
+                <TypingAnimation delay={9000}>&gt; fortune</TypingAnimation>
+                <AnimatedSpan delay={9500} className="text-blue-500">
+                  <span>🔮 "A bug-free code is a myth, but you're close!"</span>
+                </AnimatedSpan>
+
+                <TypingAnimation delay={10000}>
+                  &gt; cat README.md
+                </TypingAnimation>
+                <AnimatedSpan delay={10500} className="text-green-500">
+                  <span>📜 Welcome to my portfolio! Enjoy exploring. 🚀</span>
+                </AnimatedSpan>
+
+                <TypingAnimation delay={11000}>
+                  &gt; time_travel
+                </TypingAnimation>
+                <AnimatedSpan delay={11500} className="text-yellow-500">
+                  <span>⚡ Error 404: Flux capacitor not found.</span>
+                </AnimatedSpan>
+              </Terminal>
             </BlurFade>
           </div>
         </section>
