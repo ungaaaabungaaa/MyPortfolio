@@ -20,7 +20,7 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
 2. Move to the cloned directory
 
    ```bash
-   cd portfolio
+   cd myportfolio
    ```
 
 3. Install dependencies:
