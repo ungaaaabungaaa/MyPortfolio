@@ -12,10 +12,11 @@ import Markdown from "react-markdown";
 import Head from "next/head";
 import { CalPopup } from "@/components/cal";
 import { HyperSpeedx } from "@/hyperspeed";
-import { Safari } from "@/components/magicui/safari";
 import { AuroraText } from "@/components/magicui/aurora-text";
 import { AnimatedTestimonialsDemo } from "./animated-testimonials";
+import SafariSection from "@/components/SafariSection";
 const BLUR_FADE_DELAY = 0.04;
+
 
 export default function Page() {
   return (
@@ -124,17 +125,18 @@ export default function Page() {
             </div>
           </div>
         </section>
-        <section id="safari">
+        {/* <section id="safari">
           <div className="flex min-h-0 flex-col gap-y-3">
             <BlurFade delay={BLUR_FADE_DELAY * 9}>
               <Safari
                 url="muqeeth.me"
                 className="size-full"
-                imageSrc="/machinelearningpro.webp"
+                imageSrc="/6.webp"
               />
             </BlurFade>
           </div>
-        </section>
+        </section> */}
+        <SafariSection />
 
         <section id="work">
           <div className="flex min-h-0 flex-col gap-y-3">
