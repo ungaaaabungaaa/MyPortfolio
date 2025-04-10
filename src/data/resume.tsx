@@ -1,5 +1,7 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, Download, Headset } from "lucide-react";
+import { UserRound, CalendarDays , Music } from "lucide-react";
+
+
 
 export const DATA = {
   name: "Syed Abdul Muqeeth",
@@ -19,6 +21,7 @@ export const DATA = {
     "Expo",
     "Typescript",
     "Ollama",
+    "Github",
     "N8N",
     "Hugging Face",
     "LLM'S",
@@ -55,11 +58,16 @@ export const DATA = {
     "Digital Marketing",
   ],
   navbar: [
-    { href: "/Syed_Abdul_Muqeeth_Resume.pdf", icon: Download, label: "Resume" },
+    { href: "/Syed_Abdul_Muqeeth_Resume.pdf", icon: UserRound, label: "Resume" },
     {
       href: "https://cal.com/ungaaaabungaaaa/quickchat",
-      icon: Headset,
+      icon: CalendarDays,
       label: "Meet",
+    },
+    {
+      href: "#",
+      icon: Music,
+      label: "Spotify",
     },
   ],
   contact: {
@@ -79,12 +87,12 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
-      // Medium: {
-      //   name: "Medium",
-      //   url: "https://medium.com/@syed_abdul_muqeeth",
-      //   icon: Icons.medium,
-      //   navbar: true,
-      // },
+      Medium: {
+        name: "Medium",
+        url: "https://medium.com/@syed_abdul_muqeeth",
+        icon: Icons.medium,
+        navbar: true,
+      },
       Youtube: {
         name: "Codepen",
         url: "",
