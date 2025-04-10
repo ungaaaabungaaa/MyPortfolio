@@ -166,6 +166,8 @@ export const DATA = {
       logoUrl: "/Reva.png",
       start: "2023",
       end: "2019",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     },
     {
       school: "University College Dublin",
@@ -174,6 +176,8 @@ export const DATA = {
       logoUrl: "/Dublin.png",
       start: "2026",
       end: "2027",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     },
     {
       school: "Google Certified",
@@ -183,6 +187,8 @@ export const DATA = {
       logoUrl: "/Google.png",
       start: "Online",
       end: "Certification",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     },
     {
       school: "IBM Certified",
@@ -192,6 +198,8 @@ export const DATA = {
       logoUrl: "/IBM.png",
       start: "Online",
       end: "Certification",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     },
     {
       school: "Microsoft Certified",
@@ -200,6 +208,8 @@ export const DATA = {
       logoUrl: "/Microsoft.png",
       start: "Online",
       end: "Certification",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     },
     {
       school: "Nvidia",
@@ -209,6 +219,8 @@ export const DATA = {
       logoUrl: "/nvidia.png",
       start: "Online Self Leaerning",
       end: "Certification",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     },
     {
       school: "IBM",
@@ -217,6 +229,8 @@ export const DATA = {
       logoUrl: "Ibmcopy.png",
       start: "Online Self Leaerning",
       end: "Certification",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     },
 
     {
@@ -227,6 +241,8 @@ export const DATA = {
       logoUrl: "/Udemy.png",
       start: "Online",
       end: "Certification",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     },
     {
       school: "Coursera Certified",
@@ -235,6 +251,8 @@ export const DATA = {
       logoUrl: "/Coursera.png",
       start: "Online",
       end: "Certification",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     },
   ],
   projects: [

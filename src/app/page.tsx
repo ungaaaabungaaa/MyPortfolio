@@ -125,17 +125,6 @@ export default function Page() {
             </div>
           </div>
         </section>
-        {/* <section id="safari">
-          <div className="flex min-h-0 flex-col gap-y-3">
-            <BlurFade delay={BLUR_FADE_DELAY * 9}>
-              <Safari
-                url="muqeeth.me"
-                className="size-full"
-                imageSrc="/6.webp"
-              />
-            </BlurFade>
-          </div>
-        </section> */}
         <SafariSection />
 
         <section id="work">
@@ -189,6 +178,7 @@ export default function Page() {
                   title={education.school}
                   subtitle={education.degree}
                   period={`${education.start} - ${education.end}`}
+                  description={education.description}
                 />
               </BlurFade>
             ))}
