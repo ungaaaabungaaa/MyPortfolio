@@ -105,7 +105,12 @@ export default function Page() {
             <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
               {DATA.summary}
             </Markdown>
-          </BlurFade>
+            <img
+              src="/decor/flipperzero.png"
+              alt="Flipperzero"
+              className="w-full mt-4 md:mt-12 lg:mt-16"
+            />
+            </BlurFade>
         </section>
         <section id="skills">
           <div className="flex min-h-0 flex-col gap-y-3">
