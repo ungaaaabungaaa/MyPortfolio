@@ -106,8 +106,8 @@ export default function Page() {
               {DATA.summary}
             </Markdown>
             <img
-              src="/decor/flipperzero.png"
-              alt="Flipperzero"
+              src="/decor/firefightingrobot.png"
+              alt="FireFightingRobot"
               className="w-full mt-4 md:mt-12 lg:mt-16"
             />
             </BlurFade>
@@ -264,17 +264,18 @@ export default function Page() {
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                     Ideas & Innovations
                   </h2>
-                  <img
-                    src="/decor/firefightingrobot.png"
-                    alt="UNO Adrunio"
-                    className="w-full"
-                  />
+                 
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                     Each piece allowed me to explore and articulate my
                     understanding of complex topics, fostering a deeper
                     appreciation for the intersection of theory & practice.
                   </p>
-                 
+
+                  <img
+                    src="/decor/flipperzero.png"
+                    alt="Flipper Zero"
+                    className="w-full"
+                  />
                 </div>
               </div>
             </BlurFade>
