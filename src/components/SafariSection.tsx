@@ -4,7 +4,7 @@ import { BlurFade } from "./magicui/blur-fade";
 import { Safari } from "./magicui/safari";
 const BLUR_FADE_DELAY = 0.04;
 
-const images = ["/1.webp", "/2.webp", "/3.webp", "/4.webp", "/5.webp", "/6.webp"];
+const images = ["/1.webp", "/2.webp", "/4.webp", "/5.webp", "/6.webp"];
 
 export default function SafariSection() {
   const [currentImage, setCurrentImage] = useState(images[0]);

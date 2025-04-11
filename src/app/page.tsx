@@ -194,6 +194,11 @@ export default function Page() {
             <BlurFade delay={BLUR_FADE_DELAY * 11}>
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
                 <div className="space-y-2">
+                  <img
+                    src="/decor/satellite.png"
+                    alt="Flipperzero"
+                    className="w-full my-4 md:my-12 lg:my-16"
+                  />
                   <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                     My Research
                   </div>
