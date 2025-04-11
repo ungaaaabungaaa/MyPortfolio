@@ -196,7 +196,7 @@ export default function Page() {
                 <div className="space-y-2">
                   <img
                     src="/decor/satellite.png"
-                    alt="Flipperzero"
+                    alt="weather satellite"
                     className="w-full my-4 md:my-12 lg:my-16"
                   />
                   <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
@@ -264,11 +264,17 @@ export default function Page() {
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                     Ideas & Innovations
                   </h2>
+                  <img
+                    src="/decor/firefightingrobot.png"
+                    alt="UNO Adrunio"
+                    className="w-full"
+                  />
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                     Each piece allowed me to explore and articulate my
                     understanding of complex topics, fostering a deeper
                     appreciation for the intersection of theory & practice.
                   </p>
+                 
                 </div>
               </div>
             </BlurFade>
