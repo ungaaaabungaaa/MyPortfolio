@@ -1,8 +1,6 @@
 import { Icons } from "@/components/icons";
 import { UserRound, CalendarDays , Music } from "lucide-react";
 
-
-
 export const DATA = {
   name: "Syed Abdul Muqeeth",
   initials: "Sammy",
@@ -10,9 +8,9 @@ export const DATA = {
   location: "Bengaluru, India",
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   description:
-    "Developed web applications reaching 5M+ users | Building Things To Scale 100x | RabbitMQ & Apache Kafka Be The Way | Optimizing performance for high-traffic systems | Architecting scalable & fault-tolerant solutions",
+    "Mechatronics Engineer | Software Engineer | Built for 5M+ Users | Scaling Ideas 100x | Obsessed with Robotics, AI & ML | Kafka & RabbitMQ Enthusiast | Performance-Driven Architect",
   summary:
-    "Breaking Things, reconfiguring systems, and tackling edge cases—thriving on challenges & building better solutions Passionate about high-availability architectures  Automating workflows for efficiency | Debugging at scale",
+    "I'm a curious builder who loves breaking things, reconfiguring systems, and solving edge cases. I thrive on challenges and enjoy creating high-availability architectures, automating workflows, and debugging at scale. Outside of code, I'm passionate about hacking, pentesting, astrophotography, 3D printing, and crafting custom keyboards and cyberdecks. Right now, I'm in the zone—learning new technologies and experimenting as I go. Currently, I'm deep into building a RAG (Retrieval-Augmented Generation) application and loving every bit of the chaos.",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
@@ -56,6 +54,11 @@ export const DATA = {
     "Cloud Engineering",
     "UX Design",
     "Digital Marketing",
+    "AutoCAD",
+    "LabView",
+    "Adobe Photoshop",
+    "LightRoom",
+    "PostMan"
   ],
   navbar: [
     { href: "/Syed_Abdul_Muqeeth_Resume.pdf", icon: UserRound, label: "Resume" },
