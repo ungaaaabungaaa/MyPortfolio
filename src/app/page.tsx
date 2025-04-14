@@ -11,7 +11,6 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import Head from "next/head";
 import { CalPopup } from "@/components/cal";
-import { HyperSpeedx } from "@/hyperspeed";
 import { AuroraText } from "@/components/magicui/aurora-text";
 import { AnimatedTestimonialsDemo } from "./animated-testimonials";
 import SafariSection from "@/components/SafariSection";
@@ -299,12 +298,35 @@ export default function Page() {
             </BlurFade>
           </div>
         </section>
+        <section id="hobbies">
+          <div className="space-y-12 w-full py-12">
+            <BlurFade delay={BLUR_FADE_DELAY * 13}>
+              <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                  <div className="space-y-2">
+                          <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                            Hands-On Projects
+                          </div>
+                          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                            Hobbie Project's 
+                          </h2>
+                          <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                            from 3D printing & custom keyboards to cyberdecks & RAG apps, I love turning wild ideas into working prototypes
+                          </p>
+                  </div>
+              </div>
+
+            </BlurFade>
+
+
+
+           </div>
+        </section>
         <section id="contact">
           <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 16}>
               <div className="space-y-3">
                 <img
-                    src="/decor/bike.png"
+                    src="/decor/Bike.png"
                     alt="Bike Outline"
                     className="w-full"
                   />
