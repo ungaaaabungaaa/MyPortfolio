@@ -307,7 +307,7 @@ export default function Page() {
                             Hands-On Projects
                           </div>
                           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                            Hobbie Project's 
+                            Hobbie Project&lsquo;s 
                           </h2>
                           <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                             from 3D printing & custom keyboards to cyberdecks & RAG apps, I love turning wild ideas into working prototypes
