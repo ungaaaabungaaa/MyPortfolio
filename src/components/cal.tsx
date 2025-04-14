@@ -18,7 +18,7 @@ export function CalPopup() {
       data-cal-config='{"layout":"month_view","theme":"auto"}'
       className="inline-flex items-center rounded-full bg-foreground text-background px-9 py-3 text-lg space-x-2"
     >
-      <span>Schedule Meet</span>
+      <span>Meet</span>
       <Calendar size={16} />
     </button>
   );

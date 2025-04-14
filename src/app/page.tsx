@@ -258,7 +258,7 @@ export default function Page() {
             <BlurFade delay={BLUR_FADE_DELAY * 16}>
               <div className="space-y-3">
                 <img
-                    src="/decor/Bike.png"
+                    src="/decor/bike.png"
                     alt="Bike Outline"
                     className="w-full"
                   />
@@ -281,7 +281,6 @@ export default function Page() {
                 </p>
                 <br></br>
                 <CalPopup></CalPopup>
-                <HyperSpeedx></HyperSpeedx>
               </div>
             </BlurFade>
           </div>
