@@ -303,9 +303,15 @@ export default function Page() {
             <BlurFade delay={BLUR_FADE_DELAY * 13}>
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
                   <div className="space-y-2">
+                          <img
+                            src="/decor/cassinie.png"
+                            alt="Space Craft"
+                            className="w-full"
+                          />
                           <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                             Hands-On Projects
                           </div>
+
                           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                             Hobbie Project&lsquo;s 
                           </h2>
@@ -325,11 +331,6 @@ export default function Page() {
           <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 16}>
               <div className="space-y-3">
-                <img
-                    src="/decor/Bike.png"
-                    alt="Bike Outline"
-                    className="w-full"
-                  />
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                   Contact
                 </div>
