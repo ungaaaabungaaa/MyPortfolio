@@ -161,103 +161,82 @@ export const DATA = {
         "Assisting in the design and development of aerospace components.\nConducting research and analysis on various engineering projects.\nCollaborating with cross-functional teams to support ongoing projects.\nParticipating in technical discussions and providing innovative solutions.\nGaining hands-on experience with industry-standard tools and technologies.\nThis internship provided me with a deeper understanding of aerospace engineering and enhanced my technical and problem-solving skills",
     },
   ],
-  education: [
-    {
-      school: "Reva University",
-      href: "https://www.reva.edu.in/",
-      degree: "B.Tech Mechatronics",
-      logoUrl: "/Reva.png",
-      start: "2023",
-      end: "2019",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    },
-    {
-      school: "University College Dublin",
-      href: "https://www.ucd.ie/",
-      degree: "AI & ML Masters ",
-      logoUrl: "/Dublin.png",
-      start: "2026",
-      end: "2027",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    },
-    {
-      school: "Google Certified",
-      href: "#",
-      degree:
-        "UX Design| Digital Marketing| E-Commerce| Data Analytics| AI-Powered Performance Ads| IT Support | Project Management | Business Intelligence | Cybersecurity | Cloud Engineer",
-      logoUrl: "/Google.png",
-      start: "Online",
-      end: "Certification",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    },
-    {
-      school: "IBM Certified",
-      href: "#",
-      degree:
-        "Full Stack Software Developer |Data Analyst | DevOps & Software Engineering| Data Engineering| Deep Learning",
-      logoUrl: "/IBM.png",
-      start: "Online",
-      end: "Certification",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    },
-    {
-      school: "Microsoft Certified",
-      href: "#",
-      degree: "Azure Developer Associate | Cybersecurity Architect Expert",
-      logoUrl: "/Microsoft.png",
-      start: "Online",
-      end: "Certification",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    },
-    {
-      school: "Nvidia",
-      href: "#",
-      degree:
-        "Accelerated Computing | Data Science | Deep Learning  | Generative AI/LLM | Graphics and Simulation | Infrastructure",
-      logoUrl: "/nvidia.png",
-      start: "Online Self Leaerning",
-      end: "Certification",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    },
-    {
-      school: "IBM",
-      href: "#",
-      degree: "Qiskit | Quantum Algorithms | Quantum composer",
-      logoUrl: "Ibmcopy.png",
-      start: "Online Self Leaerning",
-      end: "Certification",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    },
+ education: [
+  {
+    school: "Reva University",
+    href: "https://www.reva.edu.in/",
+    degree: "B.Tech in Mechatronics Engineering",
+    logoUrl: "/Reva.png",
+    start: "2019",
+    end: "2023",
+    description:
+      "Studied Mechatronics Engineering with a strong foundation in mechanical systems, electronics, robotics, and automation. Completed projects on industrial robotics, embedded systems, and control systems using MATLAB and Arduino.",
+  },
+  {
+    school: "University College Dublin",
+    href: "https://www.ucd.ie/",
+    degree: "Master’s in Artificial Intelligence & Machine Learning (Upcoming)",
+    logoUrl: "/Dublin.png",
+    start: "2026",
+    end: "2027",
+    description:
+      "Planned coursework includes Deep Learning, Natural Language Processing, Data Science, and LLM-based Systems. Focused on building real-world AI applications in healthcare, automation, and smart systems.",
+  },
+  {
+    school: "Google Career Certificates",
+    href: "#",
+    degree:
+      "UX Design, Digital Marketing, E-Commerce, Data Analytics, Performance Ads, IT Support, Project Management, Business Intelligence, Cybersecurity, Cloud Engineering",
+    logoUrl: "/Google.png",
+    start: "Online",
+    end: "Certification",
+    description:
+      "Completed Google-certified courses via Coursera. Gained hands-on experience in data-driven marketing strategies, business intelligence reporting, cloud infrastructure basics, and agile project execution.",
+  },
+  {
+    school: "IBM SkillsBuild",
+    href: "#",
+    degree:
+      "Full Stack Development, Data Analytics, DevOps & Software Engineering, Data Engineering, Deep Learning",
+    logoUrl: "/IBM.png",
+    start: "Online",
+    end: "Certification",
+    description:
+      "Worked on real-time projects involving React, Node.js, MongoDB, Python, and Jupyter Notebooks. Learned containerization using Docker and CI/CD with Jenkins and GitHub Actions.",
+  },
+  {
+    school: "Microsoft Learn",
+    href: "#",
+    degree: "Azure Developer Associate, Cybersecurity Architect Expert",
+    logoUrl: "/Microsoft.png",
+    start: "Online",
+    end: "Certification",
+    description:
+      "Hands-on training in cloud deployment, resource management, security protocols, and threat modeling using Microsoft Azure services. Developed microservices and implemented security best practices.",
+  },
+  {
+    school: "NVIDIA Deep Learning Institute",
+    href: "#",
+    degree:
+      "Accelerated Computing, Data Science, Deep Learning, Generative AI, Graphics and Simulation, AI Infrastructure",
+    logoUrl: "/nvidia.png",
+    start: "Online",
+    end: "Certification",
+    description:
+      "Self-paced learning using Jupyter Labs and cloud GPU environments. Implemented deep learning models for image classification, LLM training, and simulation-based learning environments.",
+  },
+  {
+    school: "IBM Quantum (Qiskit)",
+    href: "#",
+    degree: "Quantum Computing: Qiskit, Quantum Algorithms, Composer Simulator",
+    logoUrl: "Ibmcopy.png",
+    start: "Online",
+    end: "Certification",
+    description:
+      "Learned fundamentals of quantum circuits, gates, and quantum algorithms using Qiskit. Designed and simulated basic quantum operations and contributed to open quantum projects.",
+  },
+],
 
-    {
-      school: "Udemy Certified",
-      href: "#",
-      degree:
-        "Machine Learning | Stock Analysis | Full Stack Web Development | Unity | Unreal Engine | Digital Marketing",
-      logoUrl: "/Udemy.png",
-      start: "Online",
-      end: "Certification",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    },
-    {
-      school: "Coursera Certified",
-      href: "#",
-      degree: " Electric Vehicles and Mobility | Robotics | Machine Learning ",
-      logoUrl: "/Coursera.png",
-      start: "Online",
-      end: "Certification",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla velit magna, accumsan facilisis suscipit quis, viverra id justo. In nisl erat, rhoncus non mauris ut, mattis blandit odio. Vivamus accumsan metus vitae imperdiet pellentesque. Nunc sollicitudin libero vitae ipsum sollicitudin tincidunt. Ut in imperdiet nunc, et fermentum purus. Nullam cursus commodo purus, nec vestibulum augue scelerisque vitae. Nunc consequat risus a augue dapibus blandit. Integer placerat lobortis leo sit amet feugiat. Ut ac lectus id nisi vehicula imperdiet sit amet vel leo. Donec a tellus in magna egestas sagittis. Sed viverra laoreet quam. Nunc ultrices sollicitudin dolor, in tempus nisl ornare sagittis. Nulla facilisi. Pellentesque tincidunt ante sed turpis dictum semper. Morbi pellentesque enim nec nisl varius, sit amet ornare ipsum cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
-    },
-  ],
   projects: [
     {
       title: "Predictive Maintenance Using Machine Learning",
