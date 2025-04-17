@@ -16,7 +16,6 @@ import { AnimatedTestimonialsDemo } from "./animated-testimonials";
 import SafariSection from "@/components/SafariSection";
 const BLUR_FADE_DELAY = 0.04;
 
-
 export default function Page() {
   return (
     <>
@@ -73,9 +72,9 @@ export default function Page() {
             <div className="gap-2 flex justify-between">
               <div className="flex-col flex flex-1 space-y-1.5">
                 <BlurFade delay={BLUR_FADE_DELAY}>
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Hi,I&apos;m <AuroraText>Muqeeth</AuroraText> 🛸
-                </h1>
+                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                    Hi,I&apos;m <AuroraText>Muqeeth</AuroraText> 🛸
+                  </h1>
                 </BlurFade>
                 <BlurFadeText
                   className="max-w-[600px] md:text-xl"
@@ -109,7 +108,7 @@ export default function Page() {
               alt="FireFightingRobot"
               className="w-full mt-4 md:mt-12 lg:mt-16"
             />
-            </BlurFade>
+          </BlurFade>
         </section>
         <section id="skills">
           <div className="flex min-h-0 flex-col gap-y-3">
@@ -257,7 +256,7 @@ export default function Page() {
             <BlurFade delay={BLUR_FADE_DELAY * 13}>
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
                 <div className="space-y-2">
-                 <img
+                  <img
                     src="/decor/iss.png"
                     alt="Space Station"
                     className="w-full my-4 md:my-6  lg:my-12"
@@ -268,7 +267,7 @@ export default function Page() {
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                     Ideas & Innovations
                   </h2>
-                 
+
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                     Each piece allowed me to explore and articulate my
                     understanding of complex topics, fostering a deeper
@@ -295,37 +294,45 @@ export default function Page() {
                   </BlurFade>
                 ))}
               </ul>
+              <img
+                src="/decor/cassinie.png"
+                alt="Space Craft"
+                className="w-full"
+              />
             </BlurFade>
           </div>
         </section>
         <section id="hobbies">
           <div className="space-y-12 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 13}>
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                  <div className="space-y-2">
-                          <img
-                            src="/decor/cassinie.png"
-                            alt="Space Craft"
-                            className="w-full"
-                          />
-                          <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                            Hands-On Projects
-                          </div>
-
-                          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                            Hobbie Project&lsquo;s 
-                          </h2>
-                          <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                            from 3D printing & custom keyboards to cyberdecks & RAG apps, I love turning wild ideas into working prototypes
-                          </p>
+              <div className="flex flex-col items-center justify-center space-y-4 text-center py-4">
+                <div className="space-y-2">
+                  <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                    Hands-On Projects
                   </div>
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                    Hobbie Project&lsquo;s
+                  </h2>
+                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                    from 3D printing & custom keyboards to cyberdecks & RAG
+                    apps, I love turning wild ideas into working prototypes
+                  </p>
+                </div>
               </div>
-
+              
+              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-full h-[32rem]">
+                  <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-slate-100 font-bold">
+                    CyberDeck
+                  </h3>
+                  <div className="text-base">
+                    <span className="">
+                      Кибердек RA01 is a custom-made wearable computer, inspired by classic cyberpunk science fiction.
+                    </span>
+                  </div>
+                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+                </div>
             </BlurFade>
-
-
-
-           </div>
+          </div>
         </section>
         <section id="contact">
           <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
