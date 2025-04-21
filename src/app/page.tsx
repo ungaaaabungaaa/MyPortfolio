@@ -323,8 +323,8 @@ export default function Page() {
                 </div>
               </div>
               
-              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-full h-[32rem]">
-                  <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-slate-100 font-bold">
+              <div className="flex basis-full flex-col p-4 tracking-tight sm:basis-1/2 w-full h-[32rem]">
+                  <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
                     CyberDeck
                   </h3>
                   <div className="text-base">
@@ -333,7 +333,46 @@ export default function Page() {
                     </span>
                   </div>
                   <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
-                </div>
+              </div>
+
+                <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[32rem]">
+                  <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
+                    6 Axis
+                  </h3>
+                  <div className="text-base">
+                    <span className="">
+                      Arm has 6+1 degrees of freedom, which is the same as a typical industrial robot, thus necessary for displaying nearly all manufacturing & domestic uses.
+                    </span>
+                  </div>
+                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#11998e] to-[#38ef7d]" />
+              </div>
+
+
+              <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[32rem]">
+                  <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
+                    Robotic Telescope
+                  </h3>
+                  <div className="text-base">
+                    <span className="">
+                      The Ultrascope is an ARO (Automated Robotic Observatory) with two designs in the works, the Explorer, with a 3.5″ mirror, and the Odyssey, with an 8″ mirror
+                    </span>
+                  </div>
+                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#FF0099] to-[#493240]" />
+              </div>
+
+              <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[32rem]">
+                  <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
+                    HomeLab
+                  </h3>
+                  <div className="text-base">
+                    <span className="">
+                     small-scale environment meant to simulate different components of a business network.
+                    </span>
+                  </div>
+                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#2980B9] via-[#6DD5FA] to-[#FFFFFF]" />
+              </div>
+
+
             </BlurFade>
           </div>
         </section>
