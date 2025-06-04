@@ -112,6 +112,20 @@ export const DATA = {
   },
 
   work: [
+
+    {
+      company: "IMAI",
+      href: "https://imai.studio/",
+      badges: [],
+      location: "USA California · Hybrid",
+      title: "Software Enginner",
+      logoUrl: "/imai.jpeg",
+      start: "May 2025",
+      end: "Present",
+      description:
+        "Contribute to building next-generation generative AI applications. My role focuses on developing cross-platform web and mobile applications using React and React Native for iOS, iPadOS, & Android, helping bring innovative AI-powered experiences to users",
+    },
+
     {
       company: "Kemuri",
       href: "https://kemuri.in/",
@@ -120,7 +134,7 @@ export const DATA = {
       title: "Software Enginner",
       logoUrl: "/Kemuri.png",
       start: "Dec 2024",
-      end: "Present",
+      end: "May 2025 · 6 mos",
       description:
         "Contributing to projects like Kuruco, a cloud-native service enabling front-end engineers to build high-performance, customizable solutions seamlessly integrated with external APIs. Looking forward to growing & making an impact with this dynamic team!",
     },
