@@ -15,6 +15,7 @@ import { AuroraText } from "@/components/magicui/aurora-text";
 import { AnimatedTestimonialsDemo } from "./animated-testimonials";
 import SafariSection from "@/components/SafariSection";
 import { MorphingText } from "@/components/magicui/morphing-text";
+import { LineShadowText } from "@/components/magicui/line-shadow-text";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -360,7 +361,8 @@ export default function Page() {
                       The Ultrascope is an ARO (Automated Robotic Observatory) with two designs in the works, the Explorer, with a 3.5″ mirror, and the Odyssey, with an 8″ mirror
                     </span>
                   </div>
-                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#FF0099] to-[#493240]" />
+                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#FF0099] to-[#493240] justify-center items-center">
+                  </div>
               </div>
 
               <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[32rem]">
