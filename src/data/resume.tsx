@@ -119,7 +119,7 @@ export const DATA = {
       badges: [],
       location: "USA California · Hybrid",
       title: "Software Enginner",
-      logoUrl: "/imai.jpeg",
+      logoUrl: "/imai.png",
       start: "May 2025",
       end: "Present",
       description:
