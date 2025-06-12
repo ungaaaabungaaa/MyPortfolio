@@ -4,7 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Inter as FontSans } from "next/font/google";
+import { Space_Grotesk as FontSans } from "next/font/google";
 import "./globals.css";
 
 const fontSans = FontSans({
