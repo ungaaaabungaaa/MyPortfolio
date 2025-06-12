@@ -67,11 +67,6 @@ export const DATA = {
       icon: CalendarDays,
       label: "Meet",
     },
-    {
-      href: "#",
-      icon: Music,
-      label: "Spotify",
-    },
   ],
   contact: {
     email: "hello@example.com",
