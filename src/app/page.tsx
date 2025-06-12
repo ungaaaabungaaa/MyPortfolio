@@ -14,6 +14,7 @@ import { CalPopup } from "@/components/cal";
 import { AuroraText } from "@/components/magicui/aurora-text";
 import { AnimatedTestimonialsDemo } from "./animated-testimonials";
 import SafariSection from "@/components/SafariSection";
+import { MorphingText } from "@/components/magicui/morphing-text";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -332,7 +333,9 @@ export default function Page() {
                       Кибердек RA01 is a custom-made wearable computer, inspired by classic cyberpunk science fiction.
                     </span>
                   </div>
-                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500 justify-center items-center">
+                    <MorphingText texts={["Кибердек", "CyberDeck"]} />
+                  </div>
               </div>
 
                 <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[32rem]">
