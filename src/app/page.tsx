@@ -348,7 +348,9 @@ export default function Page() {
                       Arm has 6+1 degrees of freedom, which is the same as a typical industrial robot, thus necessary for displaying nearly all manufacturing & domestic uses.
                     </span>
                   </div>
-                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#11998e] to-[#38ef7d]" />
+                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#11998e] to-[#38ef7d] justify-center items-center">
+                    <MorphingText texts={["6DOF", "Robot Arm"]} />
+                  </div>
               </div>
 
 
@@ -362,6 +364,7 @@ export default function Page() {
                     </span>
                   </div>
                   <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#FF0099] to-[#493240] justify-center items-center">
+                    <MorphingText texts={["Ultrascope", "Observatory"]} />
                   </div>
               </div>
 
@@ -374,7 +377,9 @@ export default function Page() {
                      small-scale environment meant to simulate different components of a business network.
                     </span>
                   </div>
-                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#2980B9] via-[#6DD5FA] to-[#FFFFFF]" />
+                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#2980B9] via-[#6DD5FA] to-[#FFFFFF] justify-center items-center">
+                    <MorphingText texts={["HomeLab", "Network"]} />
+                  </div>
               </div>
 
 
