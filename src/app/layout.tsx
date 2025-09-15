@@ -102,8 +102,8 @@ export default function RootLayout({
         
         <TooltipProvider delayDuration={0}>
           {/* Content */}
-          <div className="relative z-10 min-h-screen max-w-2xl mx-auto py-12 sm:py-24 px-6">
-            <div className="backdrop-blur-sm rounded-3xl shadow-2xl min-h-screen p-6 sm:p-8">
+          <div className="relative z-10 min-h-screen max-w-full md:max-w-2xl mx-auto py-12 sm:py-24 px-6">
+            <div className="min-h-screen p-4 lg:p-6">
               {children}
             </div>
           </div>
