@@ -55,9 +55,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  const theme = localStorage.getItem('theme');
+                  if (theme !== 'dark') {
+                    localStorage.setItem('theme', 'dark');
+                  }
+                  document.documentElement.classList.add('dark');
+                  document.documentElement.classList.remove('light');
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
+      </head>
       <body
         className={cn(
-          "min-h-screen font-sans antialiased relative",
+          "min-h-screen font-sans antialiased relative dark",
           fontSans.variable
         )}
       >
@@ -84,7 +102,7 @@ export default function RootLayout({
         
         {/* Content */}
         <div className="relative z-10 min-h-screen max-w-2xl mx-auto py-12 sm:py-24 px-6">
-          <div className="bg-black/20 backdrop-blur-xl rounded-3xl shadow-2xl min-h-screen p-6 sm:p-8">
+          <div className="backdrop-blur-xl rounded-3xl shadow-2xl min-h-screen p-6 sm:p-8">
             <TooltipProvider delayDuration={0}>
               {children}
               <Navbar />
