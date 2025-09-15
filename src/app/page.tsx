@@ -368,7 +368,7 @@ export default function Page() {
                     </span>
                   </div>
                   <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#FF0099] to-[#493240] justify-center items-center">
-                    <MorphingText texts={["Ultrascope", "Observatory"]} />
+                    <MorphingText texts={["3D", "Telescope"]} />
                   </div>
               </div>
 
