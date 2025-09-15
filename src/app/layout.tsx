@@ -100,15 +100,17 @@ export default function RootLayout({
           />
         </div>
         
-        {/* Content */}
-        <div className="relative z-10 min-h-screen max-w-2xl mx-auto py-12 sm:py-24 px-6">
-          <div className="backdrop-blur-xl rounded-3xl shadow-2xl min-h-screen p-6 sm:p-8">
-            <TooltipProvider delayDuration={0}>
+        <TooltipProvider delayDuration={0}>
+          {/* Content */}
+          <div className="relative z-10 min-h-screen max-w-3xl mx-auto py-12 sm:py-24 px-6">
+            <div className="backdrop-blur-sm rounded-3xl shadow-2xl min-h-screen p-6 sm:p-8">
               {children}
-              <Navbar />
-            </TooltipProvider>
+            </div>
           </div>
-        </div>
+          
+          {/* Navbar - Outside glass container for proper positioning */}
+          <Navbar />
+        </TooltipProvider>
       </body>
     </html>
   );

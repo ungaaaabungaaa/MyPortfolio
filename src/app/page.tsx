@@ -75,7 +75,7 @@ export default function Page() {
               <div className="flex-col flex flex-1 space-y-1.5">
                 <BlurFade delay={BLUR_FADE_DELAY}>
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Hi,I&apos;m <AuroraText>Muqeeth</AuroraText>
+                    Hi,I&apos;m <AuroraText>Muqeeth</AuroraText> 🛸
                   </h1>
                 </BlurFade>
                 <BlurFadeText
