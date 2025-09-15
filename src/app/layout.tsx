@@ -1,5 +1,4 @@
 import Navbar from "@/components/navbar";
-import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
@@ -55,7 +54,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="dark" suppressHydrationWarning>
       <body
         className={cn(
           "min-h-screen font-sans antialiased relative",
@@ -68,12 +67,12 @@ export default function RootLayout({
             colors={['#5227FF', '#FF9FFC', '#B19EEF']}
             mouseForce={20}
             cursorSize={100}
-            isViscous={false}
-            viscous={30}
+            isViscous={true}
+            viscous={50}
             iterationsViscous={32}
             iterationsPoisson={32}
             resolution={0.5}
-            isBounce={false}
+            isBounce={true}
             autoDemo={true}
             autoSpeed={0.5}
             autoIntensity={2.2}
@@ -84,13 +83,13 @@ export default function RootLayout({
         </div>
         
         {/* Content */}
-        <div className="relative z-10  min-h-screen max-w-2xl mx-auto py-12 sm:py-24 px-6">
-          <ThemeProvider attribute="class" defaultTheme="dark">
+        <div className="relative z-10 min-h-screen max-w-2xl mx-auto py-12 sm:py-24 px-6">
+          <div className="bg-black/20 backdrop-blur-xl rounded-3xl shadow-2xl min-h-screen p-6 sm:p-8">
             <TooltipProvider delayDuration={0}>
               {children}
               <Navbar />
             </TooltipProvider>
-          </ThemeProvider>
+          </div>
         </div>
       </body>
     </html>
