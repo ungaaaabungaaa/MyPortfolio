@@ -102,7 +102,7 @@ export default function RootLayout({
         
         <TooltipProvider delayDuration={0}>
           {/* Content */}
-          <div className="relative z-10 min-h-[100dvh] max-h-[100dvh]  max-w-full md:max-w-2xl mx-auto lg:py-12 sm:py-24 lg:px-6 py-12 px-1">
+          <div className="relative z-10 min-h-[100dvh] max-h-[100dvh]  max-w-full md:max-w-2xl mx-auto lg:py-12 sm:py-24 lg:px-6 py-12 px-2">
             <div className="min-h-[100dvh] lg:min-h-screen md:p-4 lg:p-6">
               {children}
             </div>
