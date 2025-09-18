@@ -329,7 +329,7 @@ export default function Page() {
                 </div>
               </div>
               
-              <div className="flex basis-full flex-col p-4 tracking-tight sm:basis-1/2 w-full h-[32rem]">
+              <div className="flex basis-full flex-col p-4 tracking-tight sm:basis-1/2 w-full h-[24rem] lg:h-[32rem]">
                   <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
                     CyberDeck
                   </h3>
@@ -343,7 +343,7 @@ export default function Page() {
                   </div>
               </div>
 
-                <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[32rem]">
+                <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[24rem] lg:h-[32rem]">
                   <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
                     6 Axis
                   </h3>
@@ -358,7 +358,7 @@ export default function Page() {
               </div>
 
 
-              <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[32rem]">
+              <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[24rem] lg:h-[32rem]">
                   <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
                     Robotic Telescope
                   </h3>
@@ -372,7 +372,7 @@ export default function Page() {
                   </div>
               </div>
 
-              <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[32rem]">
+              <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[24rem] lg:h-[32rem]">
                   <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
                     HomeLab
                   </h3>
