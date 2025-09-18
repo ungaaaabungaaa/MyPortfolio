@@ -89,7 +89,7 @@ export const DATA = {
         name: "Medium",
         url: "https://medium.com/@syed_abdul_muqeeth",
         icon: Icons.medium,
-        navbar: true,
+        navbar: false,
       },
       Youtube: {
         name: "Codepen",
