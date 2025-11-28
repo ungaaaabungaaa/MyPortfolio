@@ -15,7 +15,6 @@ import { AuroraText } from "@/components/magicui/aurora-text";
 import { AnimatedTestimonialsDemo } from "./animated-testimonials";
 import SafariSection from "@/components/SafariSection";
 import { MorphingText } from "@/components/magicui/morphing-text";
-import { LineShadowText } from "@/components/magicui/line-shadow-text";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -327,6 +326,25 @@ export default function Page() {
                     apps, I love turning wild ideas into working prototypes
                   </p>
                 </div>
+              </div>
+
+
+              <div className="flex basis-full flex-col p-4 tracking-tight sm:basis-1/2 w-full h-auto lg:h-auto">
+                  <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
+                    Crone Keyboard V.1 
+                  </h3>
+                  <div className="text-base">
+                    <span className="">
+                     Corne keyboard is a popular, split, ergonomic, mechanical keyboard with a 40% layout, featuring a 3x6 column staggered key layout with 3 thumb keys per half
+                    </span>
+                  </div>
+                  <div className="flex flex-1 w-full rounded-lg mt-4 justify-center items-center">
+                    <img
+                src="/hobbies/CroneKeyboardv1.png"
+                alt="Space Craft"
+                className="w-full"
+              />
+                  </div>
               </div>
               
               <div className="flex basis-full flex-col p-4 tracking-tight sm:basis-1/2 w-full h-[24rem] lg:h-[32rem]">
