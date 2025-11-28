@@ -406,7 +406,7 @@ export default function Page() {
 
               </div>
 
-              <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[24rem] lg:h-[32rem]">
+              <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-auto">
                 <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
                   HomeLab
                 </h3>
@@ -415,9 +415,14 @@ export default function Page() {
                     small-scale environment meant to simulate different components of a business network.
                   </span>
                 </div>
-                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#2980B9] via-[#6DD5FA] to-[#FFFFFF] justify-center items-center">
-                  <MorphingText texts={["HomeLab", "Network"]} />
+                <div className="flex h-auto flex-1 w-full rounded-lg my-4 justify-center items-center">
+                  <img
+                    src="/hobbies/nas.png"
+                    alt="asus gaming router mesh supported"
+                    className="w-full"
+                  />
                 </div>
+
               </div>
 
 
