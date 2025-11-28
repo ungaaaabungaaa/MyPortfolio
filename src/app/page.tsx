@@ -384,7 +384,7 @@ export default function Page() {
               </div>
 
 
-              <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[24rem] lg:h-[32rem]">
+              <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-auto">
                 <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
                   Robotic Telescope
                 </h3>
@@ -393,9 +393,17 @@ export default function Page() {
                     The Ultrascope is an ARO (Automated Robotic Observatory) with two designs in the works, the Explorer, with a 3.5″ mirror, and the Odyssey, with an 8″ mirror
                   </span>
                 </div>
-                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#FF0099] to-[#493240] justify-center items-center">
-                  <MorphingText texts={["3D", "Telescope"]} />
+
+                <div className="flex h-auto flex-1 w-full rounded-lg my-4 justify-center items-center">
+                  <img
+                    src="/hobbies/telescope.png"
+                    alt="celestron telescope"
+                    className="w-2/4"
+                  />
                 </div>
+
+
+
               </div>
 
               <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[24rem] lg:h-[32rem]">
