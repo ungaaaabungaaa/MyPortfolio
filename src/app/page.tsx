@@ -266,9 +266,9 @@ export default function Page() {
                   />
 
                   <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Projects & Patents
+                    Projects & Patents
                   </div>
-                 
+
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                     Ideas & Innovations
                   </h2>
@@ -317,7 +317,7 @@ export default function Page() {
                   <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                     Hands-On Projects
                   </div>
-                  
+
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                     Hobbie Project&lsquo;s
                   </h2>
@@ -330,85 +330,93 @@ export default function Page() {
 
 
               <div className="flex basis-full flex-col p-4 tracking-tight sm:basis-1/2 w-full h-auto lg:h-auto">
-                  <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
-                    Crone Keyboard V.1 
-                  </h3>
-                  <div className="text-base">
-                    <span className="">
-                     Corne keyboard is a popular, split, ergonomic, mechanical keyboard with a 40% layout, featuring a 3x6 column staggered key layout with 3 thumb keys per half
-                    </span>
-                  </div>
-                  <div className="flex flex-1 w-full rounded-lg mt-4 justify-center items-center">
-                    <img
-                src="/hobbies/CroneKeyboardv1.png"
-                alt="Space Craft"
-                className="w-full"
-              />
-                  </div>
-              </div>
-              
-              <div className="flex basis-full flex-col p-4 tracking-tight sm:basis-1/2 w-full h-[24rem] lg:h-[32rem]">
-                  <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
-                    CyberDeck
-                  </h3>
-                  <div className="text-base">
-                    <span className="">
-                      Кибердек RA01 is a custom-made wearable computer, inspired by classic cyberpunk science fiction.
-                    </span>
-                  </div>
-                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500 justify-center items-center">
-                    <MorphingText texts={["Кибердек", "CyberDeck"]} />
-                  </div>
+                <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
+                  Crone Keyboard V.1
+                </h3>
+                <div className="text-base">
+                  <span className="">
+                    Corne keyboard is a popular, split, ergonomic, mechanical keyboard with a 40% layout, featuring a 3x6 column staggered key layout with 3 thumb keys per half
+                  </span>
+                </div>
+                <div className="flex flex-1 w-full rounded-lg mt-4 justify-center items-center">
+                  <img
+                    src="/hobbies/CroneKeyboardv1.png"
+                    alt="Crone Split Keyboard"
+                    className="w-3/4"
+                  />
+                </div>
               </div>
 
-                <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[24rem] lg:h-[32rem]">
-                  <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
-                    6 Axis
-                  </h3>
-                  <div className="text-base">
-                    <span className="">
-                      Arm has 6+1 degrees of freedom, which is the same as a typical industrial robot, thus necessary for displaying nearly all manufacturing & domestic uses.
-                    </span>
-                  </div>
-                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#11998e] to-[#38ef7d] justify-center items-center">
-                    <MorphingText texts={["6DOF", "Robot Arm"]} />
-                  </div>
+              <div className="flex basis-full flex-col p-4 tracking-tight sm:basis-1/2 w-full h-auto lg:h-auto">
+                <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
+                  CyberDeck
+                </h3>
+                <div className="text-base">
+                  <span className="">
+                    Кибердек RA01 is a custom-made wearable computer, inspired by classic cyberpunk science fiction.
+                  </span>
+                </div>
+                <div className="flex flex-1 w-full rounded-lg my-4 justify-center items-center">
+                  <img
+                    src="/hobbies/psp.png"
+                    alt="CyberDeck"
+                    className="w-3/4"
+                  />
+                </div>
               </div>
 
-
-              <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[24rem] lg:h-[32rem]">
-                  <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
-                    Robotic Telescope
-                  </h3>
-                  <div className="text-base">
-                    <span className="">
-                      The Ultrascope is an ARO (Automated Robotic Observatory) with two designs in the works, the Explorer, with a 3.5″ mirror, and the Odyssey, with an 8″ mirror
-                    </span>
-                  </div>
-                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#FF0099] to-[#493240] justify-center items-center">
-                    <MorphingText texts={["3D", "Telescope"]} />
-                  </div>
+              <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-auto">
+                <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
+                  6 Axis
+                </h3>
+                <div className="text-base">
+                  <span className="">
+                    Arm has 6+1 degrees of freedom, which is the same as a typical industrial robot, thus necessary for displaying nearly all manufacturing & domestic uses.
+                  </span>
+                </div>
+                <div className="flex h-auto flex-1 w-full rounded-lg my-4 justify-center items-center">
+                  <img
+                    src="/hobbies/6axis.png"
+                    alt="6 Axis Industrial Arm"
+                    className="w-2/4"
+                  />
+                </div>
               </div>
+
 
               <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[24rem] lg:h-[32rem]">
-                  <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
-                    HomeLab
-                  </h3>
-                  <div className="text-base">
-                    <span className="">
-                     small-scale environment meant to simulate different components of a business network.
-                    </span>
-                  </div>
-                  <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#2980B9] via-[#6DD5FA] to-[#FFFFFF] justify-center items-center">
-                    <MorphingText texts={["HomeLab", "Network"]} />
-                  </div>
+                <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
+                  Robotic Telescope
+                </h3>
+                <div className="text-base">
+                  <span className="">
+                    The Ultrascope is an ARO (Automated Robotic Observatory) with two designs in the works, the Explorer, with a 3.5″ mirror, and the Odyssey, with an 8″ mirror
+                  </span>
+                </div>
+                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#FF0099] to-[#493240] justify-center items-center">
+                  <MorphingText texts={["3D", "Telescope"]} />
+                </div>
+              </div>
+
+              <div className="flex basis-full flex-col p-4 tracking-tight  sm:basis-1/2 w-full h-[24rem] lg:h-[32rem]">
+                <h3 className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed font-semibold">
+                  HomeLab
+                </h3>
+                <div className="text-base">
+                  <span className="">
+                    small-scale environment meant to simulate different components of a business network.
+                  </span>
+                </div>
+                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-[#2980B9] via-[#6DD5FA] to-[#FFFFFF] justify-center items-center">
+                  <MorphingText texts={["HomeLab", "Network"]} />
+                </div>
               </div>
 
 
             </BlurFade>
           </div>
         </section>
-        
+
         <section id="contact">
           <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 16}>
