@@ -1,12 +1,13 @@
-"use client"
-import { useState, useEffect } from "react";
-import { BlurFade } from "./magicui/blur-fade";
-import { Safari } from "./magicui/safari";
-const BLUR_FADE_DELAY = 0.04;
+"use client";
+
+import { useEffect, useState } from "react";
+import { BlurFade } from "@/components/magicui/blur-fade";
+import { Safari } from "@/components/magicui/safari";
+import { BLUR_FADE_DELAY } from "./constants";
 
 const images = ["/1.webp", "/2.webp", "/4.webp", "/5.webp", "/6.webp"];
 
-export default function SafariSection() {
+export function SafariSection() {
   const [currentImage, setCurrentImage] = useState(images[0]);
 
   useEffect(() => {
@@ -29,3 +30,4 @@ export default function SafariSection() {
     </section>
   );
 }
+
