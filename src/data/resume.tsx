@@ -93,11 +93,11 @@ export const DATA = {
   work: [
 
     {
-      company: "IMAI",
+      company: "IMAI.STUDIO",
       href: "https://imai.studio/",
       badges: [],
       location: "USA California · Hybrid",
-      title: "Software Enginner",
+      title: "AI Research Engineer",
       logoUrl: "/imai.png",
       start: "May 2025",
       end: "Present",
@@ -106,7 +106,7 @@ export const DATA = {
     },
 
     {
-      company: "Kemuri",
+      company: "Kemuri Pvt Ltd",
       href: "https://kemuri.in/",
       badges: [],
       location: "Bengaluru, Karnataka, India · Remote",
@@ -118,7 +118,7 @@ export const DATA = {
         "Contributing to projects like Kuruco, a cloud-native service enabling front-end engineers to build high-performance, customizable solutions seamlessly integrated with external APIs. Looking forward to growing & making an impact with this dynamic team!",
     },
     {
-      company: "CineFirm",
+      company: "CineFirm Pvt Ltd",
       href: "https://cinefirm.in",
       badges: [],
       location: "Bengaluru, Karnataka, India · Remote",
@@ -130,7 +130,7 @@ export const DATA = {
         "Built a Next.js web app for Cinefirm to showcase their photography and videography services,\n along with a responsive booking system to onboard clients and schedule shoots seamlessly.\nLeveraging GSAP for smooth animations, Vercel for hosting, and the power of the Next.js framework,\nthe platform highlights Cinefirm's expertise in both event shoots and brand design,\nensuring all client needs are met with precision and creativity",
     },
     {
-      company: "Ammas Pastries",
+      company: "Ammas Pastries Pvt Ltd",
       badges: [],
       href: "https://ammaspastries.in/",
       location: "Kothanur · Hybrid",
@@ -142,7 +142,7 @@ export const DATA = {
         "Led the development of innovative web solutions tailored for the bakery industry.\nSpecializing in creating custom, scalable technology that enhances user experience and operational efficiency.\nReact Migration: Migrated the website to a React platform, significantly improving performance and user experience.\nNext.js Development: Built a comprehensive React application using Next.js, boosting functionality and SEO.\nWordPress Integration: Integrated WordPress CRM with the React app using REST APIs for streamlined content management and payment processing.\nPayment Solutions: Implemented cloud functions for secure Razorpay payment transactions.\nSEO & Accessibility: Enhanced website SEO and accessibility to improve reach and compliance.\nCentralized TV System: Developed a TV system for displaying new product launches in stores, increasing customer engagement.\nDynamic Delivery Charges: Integrated location-based delivery charges for precise and transparent cost calculation.",
     },
     {
-      company: "Hindustan Aeronautics Limited",
+      company: "Hindustan Aeronautics Limited - HAL",
       href: "https://www.hal-india.co.in/",
       badges: [],
       location: "HAL Airport · On-site",
