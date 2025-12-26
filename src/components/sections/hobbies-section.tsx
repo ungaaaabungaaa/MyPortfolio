@@ -53,7 +53,7 @@ const hobbies: Hobby[] = [
       "small-scale environment meant to simulate different components of a business network.",
     imageSrc: "/hobbies/nas.png",
     imageAlt: "asus gaming router mesh supported",
-    imageClassName: "w-full",
+    imageClassName: "w-3/4",
     wrapperClassName: "my-4",
   },
 ];
