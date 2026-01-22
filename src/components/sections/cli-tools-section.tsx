@@ -14,13 +14,13 @@ export function CLIToolsSection() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center py-4">
             <div className="space-y-2">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                CLI Tools
+                CLI
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Command Line Interface
+              My CLI Tools 
               </h2>
               <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I build powerful CLI tools to automate workflows and enhance
+                building powerful CLI tools to automate workflows & enhance
                 developer productivity.
               </p>
             </div>
