@@ -169,7 +169,7 @@ code[data-line-numbers-max-digits="3"] > [data-line]::before {
   --color-5: 90 100% 63%;
 }
 
-@theme inline {
+  @theme inline {
   @keyframes line-shadow {
   0% {
     background-position: 0 0;
@@ -178,4 +178,14 @@ code[data-line-numbers-max-digits="3"] > [data-line]::before {
     background-position: 100% -100%;
         }
     }
+}
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }

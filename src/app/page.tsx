@@ -7,6 +7,7 @@ import { EducationSection } from "@/components/sections/education-section";
 import { HackathonsSection } from "@/components/sections/hackathons-section";
 import { HeroSection } from "@/components/sections/hero-section";
 import { HobbiesSection } from "@/components/sections/hobbies-section";
+import { CLIToolsSection } from "@/components/sections/cli-tools-section";
 import { ProjectsSection } from "@/components/sections/projects-section";
 import { SafariSection } from "@/components/sections/safari-section";
 import { SkillsSection } from "@/components/sections/skills-section";
@@ -78,6 +79,7 @@ export default function Page() {
         <AppsSection />
         <HackathonsSection hackathons={DATA.hackathons} />
         <HobbiesSection />
+        <CLIToolsSection />
         <ContactSection emailUrl={DATA.contact.social.email.url} />
       </main>
     </>
