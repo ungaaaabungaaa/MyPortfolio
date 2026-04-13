@@ -14,13 +14,13 @@ export function AboutSection({
 }: AboutSectionProps) {
   return (
     <section id="about">
-      <BlurFade delay={BLUR_FADE_DELAY * 3}>
+      {/* <BlurFade delay={BLUR_FADE_DELAY * 3}>
         <HyperText className="text-xl font-bold" text="About Me" duration={600} />
-      </BlurFade>
+      </BlurFade> */}
       <BlurFade delay={BLUR_FADE_DELAY * 4}>
-        <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+        {/* <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
           {summary}
-        </Markdown>
+        </Markdown> */}
         <img
           src={imageSrc}
           alt="FireFightingRobot"

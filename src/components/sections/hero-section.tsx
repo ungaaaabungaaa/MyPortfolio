@@ -24,7 +24,8 @@ export function HeroSection({
           <div className="flex-col flex flex-1 space-y-1.5">
             <BlurFade delay={BLUR_FADE_DELAY}>
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                Hi,I&apos;m <AuroraText>{name}</AuroraText>
+                {/* Hi,I&apos;m <AuroraText>{name}</AuroraText> */}
+                 Hi,I&apos;m {name}
               </h1>
             </BlurFade>
             <BlurFadeText

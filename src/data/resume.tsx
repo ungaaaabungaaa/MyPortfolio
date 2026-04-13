@@ -8,10 +8,10 @@ export const DATA = {
   location: "Bengaluru, India",
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   description:
-    "Love building & Experimenting with Software, Hardware, Robotics & AI",
+    "Messing Around in Almost Everything. Curiousity driven developer",
   summary:
-    "Curious builder who likes breaking things, fixing edge cases, and learning by doing. Currently experimenting with RAG systems.",
-  avatarUrl: "/me.jpg",
+    "",
+  avatarUrl: "/me.jpeg",
   skills: [
     "A2UI",
     "React",
@@ -25,6 +25,7 @@ export const DATA = {
     "Hugging Face",
     "LLM'S",
     "LangChain",
+    "FineTuning",
     "CMS",
     "RAG",
     "Node.js",
@@ -52,15 +53,16 @@ export const DATA = {
     "PostMan",
     "Figma",
     "Blender",
+    "Unreal Engine 5",
     "3D Printing",
     "CAD",
     "CAM",
     "CNC",
     "Laser Cutting",
-    "3D Scanning",
-    "3D Modeling",
-    "3D Printing",
+    "3D Scanning & Modeling",
     "Convex DB",
+    "CockroachDB",
+    "Space Time DB",
     "Supabase DB",
   ],
   navbar: [
@@ -102,7 +104,7 @@ export const DATA = {
       start: "May 2025",
       end: "Present",
       description:
-        "Contribute to building Next-Gen Generative AI applications. My role focuses on developing Tools for AI Agents to use in their workflows like browsing the web, searching the internet, & more.",
+        "Building ChatAdapters to extend our platforms capabilities across Node-based platforms like Telegram, WhatsApp, Discord, and Slack  powered by the Vercel SDK. Currently tinkering with Stagehand to give our agent the ability to scrape any website and understand its design language. Using OpenRouter and enabling voice transcription to remove the friction of typing & exploring a lot more along the way. Also adding REST API endpoints so external platforms can leverage our agent as extensions. On the side, building a foundation model tailored for designers.",
     },
 
     {
@@ -170,8 +172,8 @@ export const DATA = {
     href: "https://www.ucd.ie/",
     degree: "Master’s in Artificial Intelligence & Machine Learning (Upcoming)",
     logoUrl: "/Dublin.png",
-    start: "2026",
-    end: "2027",
+    start: "2027",
+    end: "2028",
     description:
       "Planned coursework includes Deep Learning, Natural Language Processing, Data Science, and LLM-based Systems. Focused on building real-world AI applications in healthcare, automation, and smart systems.",
   },
