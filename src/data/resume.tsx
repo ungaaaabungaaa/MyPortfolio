@@ -8,9 +8,9 @@ export const DATA = {
   location: "Bengaluru, India",
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   description:
-    "AI research engineer and full-stack developer in Bengaluru building Next.js apps, AI agents, React Native products, robotics prototypes, and machine learning systems.",
+    "Thinker, Maker, & Doer",
   summary:
-    "I build AI-native products across **Next.js**, **React Native**, **LLMs**, **automation**, and **robotics**. This portfolio brings together research, full-stack product work, applied machine learning, and hardware-first prototyping in one place.",
+    "Gets Curious ,Learns builds & Circle Back",
   avatarUrl: "/images/profile/syed-abdul-muqeeth.jpeg",
   skills: [
     "A2UI",

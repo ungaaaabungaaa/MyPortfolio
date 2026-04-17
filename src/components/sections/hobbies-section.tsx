@@ -57,6 +57,15 @@ const hobbies: Hobby[] = [
     imageClassName: "w-3/4",
     wrapperClassName: "my-4",
   },
+  {
+    title: "Fractcal FPV",
+    description:
+      "Unreal Engine 5 real-time fractal generation with FPV flyby.",
+    imageSrc: "/images/hobbies/fractalfpv.png",
+    imageAlt: "Fractcal FPV project preview",
+    imageClassName: "w-full",
+    wrapperClassName: "my-4",
+  },
 ];
 
 export function HobbiesSection() {
