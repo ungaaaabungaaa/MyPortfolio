@@ -1,6 +1,7 @@
 import type React from "react";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { HackathonCard } from "@/components/hackathon-card";
+import Image from "next/image";
 import { BLUR_FADE_DELAY } from "./constants";
 
 type HackathonLink = {
@@ -29,9 +30,12 @@ export function HackathonsSection({ hackathons }: HackathonsSectionProps) {
         <BlurFade delay={BLUR_FADE_DELAY * 13}>
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <img
-                src="/decor/iss.png"
-                alt="Space Station"
+              <Image
+                src="/images/decor/international-space-station.png"
+                alt="International Space Station illustration"
+                width={1600}
+                height={900}
+                sizes="(max-width: 768px) 100vw, 768px"
                 className="w-full my-4 md:my-6  lg:my-12"
               />
 
@@ -69,9 +73,12 @@ export function HackathonsSection({ hackathons }: HackathonsSectionProps) {
               </BlurFade>
             ))}
           </ul>
-          <img
-            src="/decor/cassinie.png"
-            alt="Space Craft"
+          <Image
+            src="/images/decor/cassini.png"
+            alt="Cassini spacecraft illustration"
+            width={1600}
+            height={900}
+            sizes="(max-width: 768px) 100vw, 768px"
             className="w-full"
           />
         </BlurFade>
@@ -79,4 +86,3 @@ export function HackathonsSection({ hackathons }: HackathonsSectionProps) {
     </section>
   );
 }
-

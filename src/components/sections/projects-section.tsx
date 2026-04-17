@@ -1,6 +1,7 @@
 import type React from "react";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { ProjectCard } from "@/components/project-card";
+import Image from "next/image";
 import { BLUR_FADE_DELAY } from "./constants";
 
 type ProjectLink = {
@@ -31,9 +32,12 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
         <BlurFade delay={BLUR_FADE_DELAY * 11}>
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <img
-                src="/decor/satellite.png"
-                alt="weather satellite"
+              <Image
+                src="/images/decor/satellite.png"
+                alt="Satellite illustration"
+                width={1600}
+                height={900}
+                sizes="(max-width: 768px) 100vw, 768px"
                 className="w-full my-4 md:my-12 lg:my-16"
               />
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
@@ -74,4 +78,3 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
     </section>
   );
 }
-

@@ -6,7 +6,13 @@ import { Safari } from "@/components/magicui/safari";
 import { BLUR_FADE_DELAY } from "./constants";
 
 // Use absolute paths so Next/Image can resolve from public/
-const images = ["/1.webp", "/2.webp", "/4.webp", "/5.webp", "/6.webp"];
+const images = [
+  "/images/showcase/portfolio-showcase-1.webp",
+  "/images/showcase/portfolio-showcase-2.webp",
+  "/images/showcase/portfolio-showcase-4.webp",
+  "/images/showcase/portfolio-showcase-5.webp",
+  "/images/showcase/portfolio-showcase-6.webp",
+];
 
 export function SafariSection() {
   const [currentImage, setCurrentImage] = useState(images[0]);
@@ -31,4 +37,3 @@ export function SafariSection() {
     </section>
   );
 }
-

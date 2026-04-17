@@ -8,10 +8,10 @@ export const DATA = {
   location: "Bengaluru, India",
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   description:
-    "Messing Around in Almost Everything. Curiousity driven developer",
+    "AI research engineer and full-stack developer in Bengaluru building Next.js apps, AI agents, React Native products, robotics prototypes, and machine learning systems.",
   summary:
-    "",
-  avatarUrl: "/me.jpeg",
+    "I build AI-native products across **Next.js**, **React Native**, **LLMs**, **automation**, and **robotics**. This portfolio brings together research, full-stack product work, applied machine learning, and hardware-first prototyping in one place.",
+  avatarUrl: "/images/profile/syed-abdul-muqeeth.jpeg",
   skills: [
     "A2UI",
     "React",
@@ -66,7 +66,7 @@ export const DATA = {
     "Supabase DB",
   ],
   navbar: [
-    { href: "/Syed_Abdul_Muqeeth_Resume.pdf", icon: UserRound, label: "Resume" },
+    { href: "/documents/syed-abdul-muqeeth-resume.pdf", icon: UserRound, label: "Resume" },
     {
       href: "https://cal.com/ungaaaabungaaaa/quickchat",
       icon: CalendarDays,
@@ -100,7 +100,7 @@ export const DATA = {
       badges: [],
       location: "USA California · Hybrid",
       title: "AI Research Engineer",
-      logoUrl: "/imai.png",
+      logoUrl: "/images/logos/imai-studio.png",
       start: "May 2025",
       end: "Present",
       description:
@@ -113,7 +113,7 @@ export const DATA = {
       badges: [],
       location: "Bengaluru, Karnataka, India · Remote",
       title: "Software Enginner",
-      logoUrl: "/Kemuri.png",
+      logoUrl: "/images/logos/kemuri.png",
       start: "Dec 2024",
       end: "May 2025 · 6 mos",
       description:
@@ -125,7 +125,7 @@ export const DATA = {
       badges: [],
       location: "Bengaluru, Karnataka, India · Remote",
       title: "Full Stack Developer",
-      logoUrl: "/Cinefirm.png",
+      logoUrl: "/images/logos/cinefirm.png",
       start: "Sep 2024",
       end: "Dec 2024 · 3 mos",
       description:
@@ -137,7 +137,7 @@ export const DATA = {
       href: "https://ammaspastries.in/",
       location: "Kothanur · Hybrid",
       title: "Full Stack Developer",
-      logoUrl: "/Ammas.png",
+      logoUrl: "/images/logos/ammas-pastries.png",
       start: "Jul 2023",
       end: "Aug 2024 · 1 yr 2 mos",
       description:
@@ -149,7 +149,7 @@ export const DATA = {
       badges: [],
       location: "HAL Airport · On-site",
       title: "Engineer Intern",
-      logoUrl: "/HAL.png",
+      logoUrl: "/images/logos/hal.png",
       start: "Jul 2022",
       end: "Aug 2022 · 2 mos",
       description:
@@ -161,7 +161,7 @@ export const DATA = {
     school: "Reva University",
     href: "https://www.reva.edu.in/",
     degree: "B.Tech in Mechatronics Engineering",
-    logoUrl: "/Reva.png",
+    logoUrl: "/images/education/reva-university.png",
     start: "2019",
     end: "2023",
     description:
@@ -171,7 +171,7 @@ export const DATA = {
     school: "University College Dublin",
     href: "https://www.ucd.ie/",
     degree: "Master’s in Artificial Intelligence & Machine Learning (Upcoming)",
-    logoUrl: "/Dublin.png",
+    logoUrl: "/images/education/university-college-dublin.png",
     start: "2027",
     end: "2028",
     description:
@@ -182,7 +182,7 @@ export const DATA = {
     href: "#",
     degree:
       "UX Design, Digital Marketing, E-Commerce, Data Analytics, Performance Ads, IT Support, Project Management, Business Intelligence, Cybersecurity, Cloud Engineering",
-    logoUrl: "/Google.png",
+    logoUrl: "/images/education/google-career-certificates.png",
     start: "Online",
     end: "Certification",
     description:
@@ -193,7 +193,7 @@ export const DATA = {
     href: "#",
     degree:
       "Full Stack Development, Data Analytics, DevOps & Software Engineering, Data Engineering, Deep Learning",
-    logoUrl: "/IBM.png",
+    logoUrl: "/images/education/ibm-skillsbuild.png",
     start: "Online",
     end: "Certification",
     description:
@@ -203,7 +203,7 @@ export const DATA = {
     school: "Microsoft Learn",
     href: "#",
     degree: "Azure Developer Associate, Cybersecurity Architect Expert",
-    logoUrl: "/Microsoft.png",
+    logoUrl: "/images/education/microsoft-learn.png",
     start: "Online",
     end: "Certification",
     description:
@@ -214,7 +214,7 @@ export const DATA = {
     href: "#",
     degree:
       "Accelerated Computing, Data Science, Deep Learning, Generative AI, Graphics and Simulation, AI Infrastructure",
-    logoUrl: "/nvidia.png",
+    logoUrl: "/images/education/nvidia-dli.png",
     start: "Online",
     end: "Certification",
     description:
@@ -224,7 +224,7 @@ export const DATA = {
     school: "IBM Quantum (Qiskit)",
     href: "#",
     degree: "Quantum Computing: Qiskit, Quantum Algorithms, Composer Simulator",
-    logoUrl: "Ibmcopy.png",
+    logoUrl: "/images/education/ibm-quantum.png",
     start: "Online",
     end: "Certification",
     description:
@@ -267,7 +267,7 @@ export const DATA = {
           icon: <Icons.figshare className="size-3" />,
         },
       ],
-      image: "/Maintainece.jpeg",
+      image: "/images/projects/predictive-maintenance.jpeg",
       video: "",
     },
     {
@@ -300,7 +300,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/Space Exploration Rove.jpeg",
+      image: "/images/projects/space-exploration-rover.jpeg",
       video: "",
     },
     {
@@ -332,7 +332,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/CBT.jpeg",
+      image: "/images/projects/cognitive-behavioral-therapy.jpeg",
       video: "",
     },
     {
@@ -365,7 +365,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/Sat.jpeg",
+      image: "/images/projects/satellite-disaster-monitoring.jpeg",
       video: "",
     },
   ],
@@ -376,7 +376,7 @@ export const DATA = {
       location: "Research",
       description:
         "Developing an innovative system that leverages swarm intelligence to enhance the coordination and efficiency of distributed robotic networks",
-      image: "/Group 12.png",
+      image: "/images/research/swarm-intelligence-distributed-robotics.png",
       links: [
         {
           title: "Source",
@@ -391,7 +391,7 @@ export const DATA = {
       location: "Research",
       description:
         "Utilizing generative AI to optimize and automate design and manufacturing processes for enhanced efficiency and creativity",
-      image: "/Group 11.png",
+      image: "/images/research/generative-ai-design-manufacturing.png",
       links: [
         {
           title: "Source",
@@ -406,7 +406,7 @@ export const DATA = {
       location: "Patent",
       description:
         "Creating an advanced bionic arm equipped with LiDAR technology to enhance search and rescue operations through improved navigation and object detection.",
-      image: "/Group 13.png",
+      image: "/images/research/bionic-arm-lidar-search-rescue.png",
       links: [
         {
           title: "Source",
@@ -421,7 +421,7 @@ export const DATA = {
       location: "Patent",
       description:
         "Developing autonomous mission planning systems for drones utilizing PIXHAWK technology to optimize flight paths and enhance operational efficiency.",
-      image: "/Group 14.png",
+      image: "/images/research/autonomous-drone-mission-planning.png",
       links: [
         {
           title: "Source",
@@ -436,7 +436,7 @@ export const DATA = {
       location: "Patent",
       description:
         "Implementing ultrasonic technology for real-time crack detection in 3D-printed structures to ensure quality and integrity during manufacturing.",
-      image: "/Group 15.png",
+      image: "/images/research/3d-printing-crack-detection.png",
       links: [
         {
           title: "Source",
@@ -456,7 +456,7 @@ export const DATA = {
       location: "Medium | LinkedIn",
       description:
         "Exploring the intricate interplay of emotions through a scientific lens to understand their impact on behavior and decision-making.",
-      image: "/Group 20.png",
+      image: "/images/research/science-of-emotions.png",
       links: [
         {
           title: "LinkedIn",
@@ -476,7 +476,7 @@ export const DATA = {
       location: "Medium | LinkedIn",
       description:
         "Examining the influence of cognitive biases on decision-making processes to improve awareness and enhance critical thinking.",
-      image: "/Group 16.png",
+      image: "/images/research/cognitive-biases-decision-making.png",
       links: [
         {
           title: "LinkedIn",
@@ -496,7 +496,7 @@ export const DATA = {
       location: "Research",
       description:
         "Developing an emotion-responsive smart lighting system that adapts illumination based on user emotions to create personalized and immersive environments.",
-      image: "/Group 17.png",
+      image: "/images/research/emotion-responsive-smart-lighting.png",
       links: [
         {
           title: "Source",
@@ -511,7 +511,7 @@ export const DATA = {
       location: "Research",
       description:
         "Creating a stress monitoring system for pilots to assess and manage their mental well-being, ensuring safer flight operations.",
-      image: "/Group 18.png",
+      image: "/images/research/stress-monitoring-pilots.png",
       links: [
         {
           title: "Source",
@@ -526,7 +526,7 @@ export const DATA = {
       location: "Research",
       description:
         "Developing a comprehensive monitoring system for aquaponics to optimize environmental conditions and enhance the growth of plants and fish.",
-      image: "/Group 19.png",
+      image: "/images/research/aquaponics-monitoring-system.png",
       links: [
         {
           title: "Source",

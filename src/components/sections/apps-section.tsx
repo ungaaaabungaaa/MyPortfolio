@@ -7,19 +7,19 @@ const testimonials = [
     quote: "React Native App, Similar To BookMyShow",
     name: "SEATS",
     designation: "1.2.12",
-    src: "/app3.webp",
+    src: "/images/apps/seats-app.webp",
   },
   {
     quote: "An OLLMA 3.2-Powered Education App",
     name: "FAILER",
     designation: "2.1.0",
-    src: "/app1.webp",
+    src: "/images/apps/failer-app.webp",
   },
   {
     quote: "Simple Dribble Inspired Clone AIRBNB",
     name: "AIRBNB CLONE",
     designation: "1.4.0",
-    src: "/app2.webp",
+    src: "/images/apps/airbnb-clone-app.webp",
   },
 ];
 
@@ -45,4 +45,3 @@ export function AppsSection() {
     </section>
   );
 }
-

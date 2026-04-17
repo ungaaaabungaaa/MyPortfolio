@@ -2,7 +2,7 @@ import Navbar from "@/components/navbar";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Space_Grotesk as FontSans } from "next/font/google";
 import "./globals.css";
 import LiquidEther from "@/components/LiquidEther";
@@ -12,20 +12,86 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 
+const siteTitle = "Muqeeth | AI Research Engineer & Full-Stack Developer";
+const socialImage = "/images/social/og-image.jpg";
+
+export const viewport: Viewport = {
+  colorScheme: "dark",
+  themeColor: "#050816",
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {
-    default: DATA.name,
+    default: siteTitle,
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
+  applicationName: "Muqeeth Portfolio",
+  alternates: {
+    canonical: "/",
+  },
+  authors: [{ name: "Syed Abdul Muqeeth", url: DATA.url }],
+  creator: "Syed Abdul Muqeeth",
+  publisher: "Syed Abdul Muqeeth",
+  category: "technology",
+  keywords: [
+    "Syed Abdul Muqeeth",
+    "Muqeeth portfolio",
+    "AI research engineer",
+    "full-stack developer",
+    "Next.js developer",
+    "React Native developer",
+    "machine learning engineer",
+    "robotics engineer",
+    "LLM engineer",
+    "Bengaluru developer",
+  ],
+  manifest: "/manifest.webmanifest",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      {
+        url: "/icons/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+      {
+        url: "/icons/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+    ],
+    apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180" }],
+    other: [
+      {
+        rel: "mask-icon",
+        url: "/icons/safari-pinned-tab.svg",
+        color: "#050816",
+      },
+    ],
+  },
+  formatDetection: {
+    address: false,
+    email: false,
+    telephone: false,
+  },
+  referrer: "origin-when-cross-origin",
   openGraph: {
-    title: `${DATA.name}`,
+    title: siteTitle,
     description: DATA.description,
     url: DATA.url,
-    siteName: `${DATA.name}`,
-    locale: "en_US",
+    siteName: "Muqeeth Portfolio",
+    locale: "en_IN",
     type: "website",
+    images: [
+      {
+        url: socialImage,
+        width: 1200,
+        height: 630,
+        alt: "Muqeeth portfolio preview",
+      },
+    ],
   },
   robots: {
     index: true,
@@ -39,12 +105,18 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: `${DATA.name}`,
+    title: siteTitle,
+    description: DATA.description,
     card: "summary_large_image",
+    images: ["/images/social/twitter-image.jpg"],
   },
-  verification: {
-    google: "",
-    yandex: "",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Muqeeth Portfolio",
+  },
+  other: {
+    "msapplication-TileColor": "#050816",
   },
 };
 

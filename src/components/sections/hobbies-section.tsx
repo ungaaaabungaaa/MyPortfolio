@@ -1,4 +1,5 @@
 import { BlurFade } from "@/components/magicui/blur-fade";
+import Image from "next/image";
 import { BLUR_FADE_DELAY } from "./constants";
 
 type Hobby = {
@@ -15,7 +16,7 @@ const hobbies: Hobby[] = [
     title: "Crone Keyboard V.1",
     description:
       "Corne keyboard is a popular, split, ergonomic, mechanical keyboard with a 40% layout, featuring a 3x6 column staggered key layout with 3 thumb keys per half",
-    imageSrc: "/hobbies/CroneKeyboardv1.png",
+    imageSrc: "/images/hobbies/corne-keyboard-v1.png",
     imageAlt: "Crone Split Keyboard",
     imageClassName: "w-3/4",
     wrapperClassName: "mt-4",
@@ -24,7 +25,7 @@ const hobbies: Hobby[] = [
     title: "CyberDeck",
     description:
       "Кибердек RA01 is a custom-made wearable computer, inspired by classic cyberpunk science fiction.",
-    imageSrc: "/hobbies/psp.png",
+    imageSrc: "/images/hobbies/cyberdeck-ra01.png",
     imageAlt: "CyberDeck",
     imageClassName: "w-3/4",
     wrapperClassName: "my-4",
@@ -33,7 +34,7 @@ const hobbies: Hobby[] = [
     title: "6 Axis",
     description:
       "Arm has 6+1 degrees of freedom, which is the same as a typical industrial robot, thus necessary for displaying nearly all manufacturing & domestic uses.",
-    imageSrc: "/hobbies/6axis.png",
+    imageSrc: "/images/hobbies/six-axis-robotic-arm.png",
     imageAlt: "6 Axis Industrial Arm",
     imageClassName: "w-2/4",
     wrapperClassName: "my-4",
@@ -42,7 +43,7 @@ const hobbies: Hobby[] = [
     title: "Robotic Telescope",
     description:
       "The Ultrascope is an ARO (Automated Robotic Observatory) with two designs in the works, the Explorer, with a 3.5″ mirror, and the Odyssey, with an 8″ mirror",
-    imageSrc: "/hobbies/telescope.png",
+    imageSrc: "/images/hobbies/robotic-telescope.png",
     imageAlt: "celestron telescope",
     imageClassName: "w-2/4",
     wrapperClassName: "my-4",
@@ -51,7 +52,7 @@ const hobbies: Hobby[] = [
     title: "HomeLab",
     description:
       "small-scale environment meant to simulate different components of a business network.",
-    imageSrc: "/hobbies/nas.png",
+    imageSrc: "/images/hobbies/homelab-nas.png",
     imageAlt: "asus gaming router mesh supported",
     imageClassName: "w-3/4",
     wrapperClassName: "my-4",
@@ -94,9 +95,12 @@ export function HobbiesSection() {
                     hobby.wrapperClassName ?? ""
                   }`}
                 >
-                  <img
+                  <Image
                     src={hobby.imageSrc}
                     alt={hobby.imageAlt}
+                    width={1200}
+                    height={900}
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className={hobby.imageClassName ?? "w-full"}
                   />
                 </div>
@@ -108,4 +112,3 @@ export function HobbiesSection() {
     </section>
   );
 }
-
