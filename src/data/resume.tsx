@@ -181,93 +181,69 @@ export const DATA = {
     school: "Google Career Certificates",
     href: "#",
     degree:
-      "UX Design, Digital Marketing, E-Commerce, Data Analytics, Performance Ads, IT Support, Project Management, Business Intelligence, Cybersecurity, Cloud Engineering",
+      "UX Design, Digital Marketing, E-Commerce, Data Analytics, Performance Ads,  basicsCybersecurity,",
     logoUrl: "/images/education/google-career-certificates.png",
     start: "Online",
     end: "Certification",
     description:
-      "Completed Google-certified courses via Coursera. Gained hands-on experience in data-driven marketing strategies, business intelligence reporting, cloud infrastructure basics, and agile project execution.",
+      "Completed Google-certified courses via Coursera. Gained hands-on experience in data-driven marketing strategies, business intelligence reporting, cloud infrastructure basics",
   },
   {
     school: "IBM SkillsBuild",
     href: "#",
     degree:
-      "Full Stack Development, Data Analytics, DevOps & Software Engineering, Data Engineering, Deep Learning",
+      "Full Stack Development, Data Analytics, DevOps & Deep Learning",
     logoUrl: "/images/education/ibm-skillsbuild.png",
     start: "Online",
     end: "Certification",
     description:
-      "Worked on real-time projects involving React, Node.js, MongoDB, Python, and Jupyter Notebooks. Learned containerization using Docker and CI/CD with Jenkins and GitHub Actions.",
-  },
-  {
-    school: "Microsoft Learn",
-    href: "#",
-    degree: "Azure Developer Associate, Cybersecurity Architect Expert",
-    logoUrl: "/images/education/microsoft-learn.png",
-    start: "Online",
-    end: "Certification",
-    description:
-      "Hands-on training in cloud deployment, resource management, security protocols, and threat modeling using Microsoft Azure services. Developed microservices and implemented security best practices.",
+      "Worked on real-time projects involving React, Node.js, MongoDB, Python, and Google Colab Notebooks. Learned containerization using Docker and CI/CD with Jenkins and GitHub Actions.",
   },
   {
     school: "NVIDIA Deep Learning Institute",
     href: "#",
     degree:
-      "Accelerated Computing, Data Science, Deep Learning, Generative AI, Graphics and Simulation, AI Infrastructure",
+      "Accelerated Computing, Generative AI, Graphics & Simulation, AI Infrastructure",
     logoUrl: "/images/education/nvidia-dli.png",
     start: "Online",
     end: "Certification",
     description:
       "Self-paced learning using Jupyter Labs and cloud GPU environments. Implemented deep learning models for image classification, LLM training, and simulation-based learning environments.",
   },
-  {
-    school: "IBM Quantum (Qiskit)",
-    href: "#",
-    degree: "Quantum Computing: Qiskit, Quantum Algorithms, Composer Simulator",
-    logoUrl: "/images/education/ibm-quantum.png",
-    start: "Online",
-    end: "Certification",
-    description:
-      "Learned fundamentals of quantum circuits, gates, and quantum algorithms using Qiskit. Designed and simulated basic quantum operations and contributed to open quantum projects.",
-  },
+
 ],
 
   projects: [
     {
       title: "Predictive Maintenance Using Machine Learning",
       href: "#",
-      dates: "Kaggle | FigWorks",
+      dates: "Kaggle",
       active: true,
       description:
-        "developed a predictive maintenance system using machine learning to help companies reduce downtime & optimize equipment performance. By analyzing historical data, the model predicts potential failures, allowing for timely interventions and saving on costly repairs. This project is an excellent example of leveraging data to drive operational efficiency",
-      technologies: [
-        "Python",
-        "Scikit-learn",
-        "TensorFlow",
-        "Pandas",
-        "NumPy",
-        "Flask",
-        "PostgreSQL",
-        "Docker",
-      ],
+    "Built a predictive maintenance system using machine learning on the NASA Turbofan Engine dataset. The model analyzes engine sensor readings to predict Remaining Useful Life (RUL) and estimate potential failures before they happen. Added health scoring, maintenance warning levels, and failure risk categorization to simulate a real industrial monitoring system.",
+  technologies: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "XGBoost",
+    "Matplotlib",
+    "Google Colab Notebook",
+    "Machine Learning",
+  ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
+          href: "https://colab.research.google.com/drive/1Wi7DHRQrckMvOK6abQkkIF5zXFR7CIig?usp=sharing",
+          icon: <Icons.colab className="size-3" />,
         },
         {
           type: "Medium",
-          href: "#",
+          href: "https://medium.com/@ungaaaabungaaa/my-engine-light-got-me-thinking-6b24fdd2bae7",
           icon: <Icons.medium className="size-3" />,
         },
-        {
-          type: "FigShare",
-          href: "#",
-          icon: <Icons.figshare className="size-3" />,
-        },
       ],
-      image: "/images/projects/predictive-maintenance.jpeg",
+      image: "/images/projects/predictive-maintenance.png",
       video: "",
     },
     {
@@ -300,7 +276,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/images/projects/space-exploration-rover.jpeg",
+      image: "/images/projects/space-exploration-rover.jpg",
       video: "",
     },
     {
@@ -311,14 +287,9 @@ export const DATA = {
       description:
         "Developed a digital tool aimed at providing users with guided therapy exercises and mental health assessments. The application offers personalized sessions, helping individuals track their thoughts, behaviors, and emotions, while incorporating techniques to improve mental well-being. This project emphasizes my focus on psychology & human-centered AI",
       technologies: [
-        "React Native",
-        "Typescript",
-        "Node.js",
-        "MongoDB",
-        "TensorFlow",
-        "Express",
-        "Twilio API",
-        "Material UI",
+        "Hermes AI",
+        "AI Agnets",
+        "Fluid UI",
       ],
       links: [
         {
@@ -365,7 +336,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/images/projects/satellite-disaster-monitoring.jpeg",
+      image: "/images/projects/satellite-disaster-monitoring.jpg",
       video: "",
     },
   ],
