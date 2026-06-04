@@ -1,6 +1,6 @@
 import { DATA } from "@/data/resume";
 import { AboutSection } from "@/components/sections/about-section";
-import { AppsSection } from "@/components/sections/apps-section";
+// import { AppsSection } from "@/components/sections/apps-section";
 import { ContactSection } from "@/components/sections/contact-section";
 import { EducationSection } from "@/components/sections/education-section";
 import { HackathonsSection } from "@/components/sections/hackathons-section";
@@ -85,7 +85,7 @@ export default function Page() {
         <WorkSection work={DATA.work} />
         <EducationSection education={DATA.education} />
         <ProjectsSection projects={DATA.projects} />
-        <AppsSection />
+        {/* <AppsSection /> */}
         <HackathonsSection hackathons={DATA.hackathons} />
         <HobbiesSection />
         <CLIToolsSection />

@@ -7,11 +7,8 @@ import { BLUR_FADE_DELAY } from "./constants";
 
 // Use absolute paths so Next/Image can resolve from public/
 const images = [
-  "/images/showcase/portfolio-showcase-1.webp",
-  "/images/showcase/portfolio-showcase-2.webp",
-  "/images/showcase/portfolio-showcase-4.webp",
-  "/images/showcase/portfolio-showcase-5.webp",
-  "/images/showcase/portfolio-showcase-6.webp",
+  "/images/showcase/portfolio-showcase-1.png",
+  "/images/showcase/portfolio-showcase-3.png",
 ];
 
 export function SafariSection() {
