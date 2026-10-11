@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Muqeeth Portfolio",
     short_name: "Muqeeth",
     description:
-      "AI research engineer and full-stack developer portfolio with projects in Next.js, AI agents, robotics, and machine learning.",
+      "AI & Behavioral Psychology Researcher portfolio with projects in human-AI interaction, AI agents, robotics, and machine learning.",
     start_url: "/",
     display: "standalone",
     background_color: "#050816",

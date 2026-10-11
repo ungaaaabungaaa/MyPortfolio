@@ -5,7 +5,8 @@ import { cn } from "@/lib/utils";
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk as FontSans } from "next/font/google";
 import "./globals.css";
-import LiquidEther from "@/components/LiquidEther";
+import Aurora from "@/components/Aurora";
+import { SplashScreen } from "@/components/splash-screen";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -38,14 +39,15 @@ export const metadata: Metadata = {
   keywords: [
     "Syed Abdul Muqeeth",
     "Muqeeth portfolio",
-    "AI research engineer",
+    "AI and behavioral psychology researcher",
+    "human-AI interaction",
     "full-stack developer",
     "Next.js developer",
     "React Native developer",
     "machine learning engineer",
     "robotics engineer",
     "LLM engineer",
-    "Bengaluru developer",
+    "Human-AI interaction",
   ],
   manifest: "/manifest.webmanifest",
   icons: {
@@ -89,7 +91,7 @@ export const metadata: Metadata = {
         url: socialImage,
         width: 1200,
         height: 630,
-        alt: "Syed Abdul Muqeeth — AI research, full-stack development, and robotics",
+        alt: "Syed Abdul Muqeeth — AI & Behavioral Psychology Researcher",
         type: "image/png",
       },
     ],
@@ -109,7 +111,7 @@ export const metadata: Metadata = {
     title: siteTitle,
     description: DATA.seoDescription,
     card: "summary_large_image",
-    images: [{ url: socialImage, alt: "Syed Abdul Muqeeth — AI research, full-stack development, and robotics" }],
+    images: [{ url: socialImage, alt: "Syed Abdul Muqeeth — AI & Behavioral Psychology Researcher" }],
   },
   appleWebApp: {
     capable: true,
@@ -134,6 +136,10 @@ export default function RootLayout({
             __html: `
               (function() {
                 try {
+                  if (sessionStorage.getItem('portfolio-intro-seen')) {
+                    document.documentElement.dataset.skipIntro = 'true';
+                  }
+                  sessionStorage.setItem('portfolio-intro-seen', 'true');
                   const theme = localStorage.getItem('theme');
                   if (theme !== 'dark') {
                     localStorage.setItem('theme', 'dark');
@@ -152,27 +158,11 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        {/* LiquidEther Background */}
-        <div className="fixed inset-0 z-0">
-          <LiquidEther
-            colors={['#5227FF', '#FF9FFC', '#B19EEF']}
-            mouseForce={20}
-            cursorSize={100}
-            isViscous={true}
-            viscous={50}
-            iterationsViscous={32}
-            iterationsPoisson={32}
-            resolution={0.5}
-            isBounce={true}
-            autoDemo={true}
-            autoSpeed={0.5}
-            autoIntensity={2.2}
-            takeoverDuration={0.25}
-            autoResumeDelay={3000}
-            autoRampDuration={0.6}
-          />
+        <SplashScreen />
+        <div aria-hidden="true" className="pointer-events-none fixed inset-0 z-0 bg-[#110e16]">
+          <Aurora colorStops={["#7cff67", "#b497cf", "#5227ff"]} speed={1} blend={0.5} amplitude={1} />
         </div>
-        
+
         <TooltipProvider delayDuration={0}>
           {/* Content */}
           <div className="relative z-10 min-h-[100dvh] max-h-[100dvh]  max-w-full md:max-w-2xl mx-auto lg:py-12 sm:py-24 lg:px-6 py-12 px-2">

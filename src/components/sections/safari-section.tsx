@@ -7,8 +7,8 @@ import { BLUR_FADE_DELAY } from "./constants";
 
 // Use absolute paths so Next/Image can resolve from public/
 const images = [
-  "/images/showcase/portfolio-showcase-1.png",
-  "/images/showcase/portfolio-showcase-3.png",
+  "/images/showcase/portfolio-showcase-1.webp",
+  "/images/showcase/portfolio-showcase-3.webp",
 ];
 
 export function SafariSection() {
@@ -28,7 +28,7 @@ export function SafariSection() {
     <section id="safari">
       <div className="flex min-h-0 flex-col gap-y-3">
         <BlurFade delay={BLUR_FADE_DELAY * 9}>
-          <Safari url="muqeeth.me" className="size-full" imageSrc={currentImage} />
+          <Safari url="syedabdulmuqeeth.me" className="size-full" imageSrc={currentImage} />
         </BlurFade>
       </div>
     </section>

@@ -33,7 +33,7 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <Image
-                src="/images/decor/satellite.png"
+                src="/images/decor/satellite.webp"
                 alt="Satellite illustration"
                 width={1600}
                 height={900}

@@ -23,11 +23,17 @@ const structuredData = {
       description: DATA.seoDescription,
       url: DATA.url,
       image: `${DATA.url}${DATA.avatarUrl}`,
-      jobTitle: "AI Research Engineer and Full-Stack Developer",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Bengaluru",
-        addressCountry: "India",
+      jobTitle: DATA.role,
+      worksFor: {
+        "@type": "Organization",
+        name: "IMAI Studio",
+        url: "https://imai.studio/",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "San Francisco",
+          addressRegion: "California",
+          addressCountry: "US",
+        },
       },
       sameAs: Object.values(DATA.contact.social)
         .map((social) => social.url)

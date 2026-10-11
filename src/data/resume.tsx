@@ -1,73 +1,42 @@
 import { Icons } from "@/components/icons";
-import { UserRound, CalendarDays, Instagram } from "lucide-react";
+import { UserRound, CalendarDays } from "lucide-react";
 
 export const DATA = {
   name: "Muqeeth",
   initials: "Sammy",
   fullName: "Syed Abdul Muqeeth",
-  seoTitle: "Syed Abdul Muqeeth | AI Engineer & Full-Stack Developer",
+  role: "AI & Behavioral Psychology Researcher",
+  seoTitle: "Syed Abdul Muqeeth | AI & Behavioral Psychology Researcher",
   seoDescription:
-    "Syed Abdul Muqeeth is an AI research engineer and full-stack developer in Bengaluru. Explore projects in AI agents, machine learning, robotics, and web development.",
-  url: "https://my-portfolio-gamma-flax.vercel.app",
-  location: "Bengaluru, India",
-  locationLink: "https://www.google.com/maps/place/Bengaluru",
+    "Syed Abdul Muqeeth is an AI & Behavioral Psychology Researcher at IMAI Studio. Explore work in human-AI interaction, AI agents, machine learning, and robotics.",
+  url: "https://syedabdulmuqeeth.me",
+  location: "IMAI Studio · San Francisco, California, USA",
+  locationLink: "https://www.google.com/maps/place/San+Francisco",
   description:
-    "Thinker, Maker, & Doer",
+    "Exploring human behavior. Building AI systems that turn understanding into useful experiences.",
   summary:
-    "Gets Curious ,Learns builds & Circle Back",
-  avatarUrl: "/images/profile/syed-abdul-muqeeth.jpeg",
+    "I’m Syed Abdul Muqeeth, an AI & Behavioral Psychology Researcher at IMAI Studio, a company based in San Francisco, California, United States. I explore how people perceive, trust, and interact with AI—particularly the role of attention, cognitive patterns, and decision-making in the experience of using these systems.\n\nAt IMAI Studio, I connect that research with hands-on product development. My work spans AI agents, context and prompt design, model integrations, browser automation, and voice interfaces. I’m interested in the whole interaction: what a person is trying to do, what an agent needs to understand, and how to make the result useful and clear.\n\nMy background in mechatronics keeps me close to the physical world. Outside software, I build robotics and embedded-system prototypes, explore CAD and digital fabrication, and turn open-ended questions into things I can test, learn from, and improve.",
+  avatarUrl: "/images/profile/muqeeth-portrait.webp",
   skills: [
-    "A2UI",
-    "React",
-    "React Native",
-    "Next.js",
-    "Expo",
-    "Typescript",
-    "Ollama",
-    "Github",
-    "N8N",
-    "Hugging Face",
-    "LLM'S",
-    "LangChain",
-    "FineTuning",
-    "CMS",
-    "RAG",
-    "Node.js",
-    "MongoDB",
-    "Casandra",
-    "Python",
-    "Dijango",
-    "Flask",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Google Cloud",
-    "Cybersecurity",
-    "E-Commerce",
-    "Data Analytics",
-    "Full Stack Development",
-    "DevOps",
-    "Deep Learning",
-    "UX Design",
-    "Digital Marketing",
-    "AutoCAD",
-    "LabView",
-    "Adobe Photoshop",
-    "LightRoom",
-    "PostMan",
-    "Figma",
-    "Blender",
-    "Unreal Engine 5",
-    "3D Printing",
-    "CAD",
-    "CAM",
-    "CNC",
-    "Laser Cutting",
-    "3D Scanning & Modeling",
-    "Convex DB",
-    "CockroachDB",
-    "Space Time DB",
-    "Supabase DB",
+    "Human–AI Interaction",
+    "Behavioral Research",
+    "Agentic Workflows",
+    "Context Engineering",
+    "Prompt & Instruction Design",
+    "Agent Loops & Orchestration",
+    "Tool Calling & API Integration",
+    "Retrieval-Augmented Generation",
+    "Semantic Search & Embeddings",
+    "Model Integration & Routing",
+    "Browser Automation",
+    "Voice & Conversational Interfaces",
+    "Machine Learning & Computer Vision",
+    "Full-Stack Product Engineering",
+    "Data Systems & Vector Databases",
+    "Cloud & Deployment Workflows",
+    "Interaction Design & Prototyping",
+    "Robotics & Embedded Systems",
+    "CAD & Digital Fabrication",
   ],
   navbar: [
     { href: "/documents/syed-abdul-muqeeth-resume.pdf", icon: UserRound, label: "Resume" },
@@ -84,7 +53,7 @@ export const DATA = {
       Instagram: {
         name: "Instagram",
         url: "https://www.instagram.com/ungaaaabungaaa/",
-        icon: Instagram,
+        icon: Icons.instagram,
         navbar: true,
       },
       LinkedIn: {
@@ -108,22 +77,22 @@ export const DATA = {
       company: "IMAI.STUDIO",
       href: "https://imai.studio/",
       badges: [],
-      location: "USA California · Hybrid",
-      title: "AI Research Engineer",
-      logoUrl: "/images/logos/imai-studio.png",
-      start: "May 2025",
+      location: "San Francisco, California, United States · Hybrid",
+      title: "AI & Behavioral Psychology Researcher",
+      logoUrl: "/images/logos/imai-studio.webp",
+      start: "Apr 2025",
       end: "Present",
       description:
-        "Building ChatAdapters to extend our platforms capabilities across Node-based platforms like Telegram, WhatsApp, Discord, and Slack  powered by the Vercel SDK. Currently tinkering with Stagehand to give our agent the ability to scrape any website and understand its design language. Using OpenRouter and enabling voice transcription to remove the friction of typing & exploring a lot more along the way. Also adding REST API endpoints so external platforms can leverage our agent as extensions. On the side, building a foundation model tailored for designers.",
+        "Researching human psychology and behavior to understand how people perceive, interact with, and respond to AI systems. Exploring cognitive patterns, decision-making, and attention, alongside building AI features for a design platform. Developing ChatAdapters that connect agents with Telegram, WhatsApp, Discord, and Slack through Node.js and the Vercel AI SDK. Integrating models through OpenRouter and adding voice transcription so users can work with agents through speech.\n\nExploring browser automation with Stagehand to help agents inspect websites and understand their design language. Building REST API endpoints that let external platforms use these capabilities, and refining brand workflows for research, social assets, and media organization. Also exploring model development for design-focused use cases.",
     },
 
     {
-      company: "Kemuri Pvt Ltd",
+      company: "KEMURI Technology",
       href: "https://kemuri.in/",
       badges: [],
-      location: "Bengaluru, Karnataka, India · Remote",
-      title: "Software Enginner",
-      logoUrl: "/images/logos/kemuri.png",
+      location: "Bengaluru, Karnataka, India · On-site",
+      title: "System Engineer",
+      logoUrl: "/images/logos/kemuri.webp",
       start: "Dec 2024",
       end: "May 2025 · 6 mos",
       description:
@@ -135,9 +104,9 @@ export const DATA = {
       badges: [],
       location: "Bengaluru, Karnataka, India · Remote",
       title: "Full Stack Developer",
-      logoUrl: "/images/logos/cinefirm.png",
+      logoUrl: "/images/logos/cinefirm.webp",
       start: "Sep 2024",
-      end: "Dec 2024 · 3 mos",
+      end: "Nov 2024 · 3 mos",
       description:
         "Built a Next.js web app for Cinefirm to showcase their photography and videography services,\n along with a responsive booking system to onboard clients and schedule shoots seamlessly.\nLeveraging GSAP for smooth animations, Vercel for hosting, and the power of the Next.js framework,\nthe platform highlights Cinefirm's expertise in both event shoots and brand design,\nensuring all client needs are met with precision and creativity",
     },
@@ -147,7 +116,7 @@ export const DATA = {
       href: "https://ammaspastries.in/",
       location: "Kothanur · Hybrid",
       title: "Full Stack Developer",
-      logoUrl: "/images/logos/ammas-pastries.png",
+      logoUrl: "/images/logos/ammas-pastries.webp",
       start: "Jul 2023",
       end: "Aug 2024 · 1 yr 2 mos",
       description:
@@ -159,7 +128,7 @@ export const DATA = {
       badges: [],
       location: "HAL Airport · On-site",
       title: "Engineer Intern",
-      logoUrl: "/images/logos/hal.png",
+      logoUrl: "/images/logos/hal.webp",
       start: "Jul 2022",
       end: "Aug 2022 · 2 mos",
       description:
@@ -171,9 +140,9 @@ export const DATA = {
     school: "Reva University",
     href: "https://www.reva.edu.in/",
     degree: "B.Tech in Mechatronics Engineering",
-    logoUrl: "/images/education/reva-university.png",
-    start: "2019",
-    end: "2023",
+    logoUrl: "/images/education/reva-university.webp",
+    start: "May 2020",
+    end: "Jul 2023",
     description:
       "Studied Mechatronics Engineering with a strong foundation in mechanical systems, electronics, robotics, and automation. Completed projects on industrial robotics, embedded systems, and control systems using MATLAB and Arduino.",
   },
@@ -181,7 +150,7 @@ export const DATA = {
     school: "University College Dublin",
     href: "https://www.ucd.ie/",
     degree: "Master’s in Artificial Intelligence & Machine Learning (Upcoming)",
-    logoUrl: "/images/education/university-college-dublin.png",
+    logoUrl: "/images/education/university-college-dublin.webp",
     start: "2027",
     end: "2028",
     description:
@@ -192,7 +161,7 @@ export const DATA = {
     href: "#",
     degree:
       "UX Design, Digital Marketing, E-Commerce, Data Analytics, Performance Ads,  basicsCybersecurity,",
-    logoUrl: "/images/education/google-career-certificates.png",
+    logoUrl: "/images/education/google-career-certificates.webp",
     start: "Online",
     end: "Certification",
     description:
@@ -203,7 +172,7 @@ export const DATA = {
     href: "#",
     degree:
       "Full Stack Development, Data Analytics, DevOps & Deep Learning",
-    logoUrl: "/images/education/ibm-skillsbuild.png",
+    logoUrl: "/images/education/ibm-skillsbuild.webp",
     start: "Online",
     end: "Certification",
     description:
@@ -214,7 +183,7 @@ export const DATA = {
     href: "#",
     degree:
       "Accelerated Computing, Generative AI, Graphics & Simulation, AI Infrastructure",
-    logoUrl: "/images/education/nvidia-dli.png",
+    logoUrl: "/images/education/nvidia-dli.webp",
     start: "Online",
     end: "Certification",
     description:
@@ -253,7 +222,7 @@ export const DATA = {
           icon: <Icons.medium className="size-3" />,
         },
       ],
-      image: "/images/projects/predictive-maintenance.png",
+      image: "/images/projects/predictive-maintenance.webp",
       video: "",
     },
     {
@@ -286,7 +255,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/images/projects/space-exploration-rover.jpg",
+      image: "/images/projects/space-exploration-rover.webp",
       video: "",
     },
     {
@@ -313,7 +282,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/images/projects/cognitive-behavioral-therapy.jpeg",
+      image: "/images/projects/cognitive-behavioral-therapy.webp",
       video: "",
     },
     {
@@ -346,7 +315,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/images/projects/satellite-disaster-monitoring.jpg",
+      image: "/images/projects/satellite-disaster-monitoring.webp",
       video: "",
     },
   ],
@@ -357,7 +326,7 @@ export const DATA = {
       location: "Research",
       description:
         "Developing an innovative system that leverages swarm intelligence to enhance the coordination and efficiency of distributed robotic networks",
-      image: "/images/research/swarm-intelligence-distributed-robotics.png",
+      image: "/images/research/swarm-intelligence-distributed-robotics.webp",
       links: [
         {
           title: "Source",
@@ -372,7 +341,7 @@ export const DATA = {
       location: "Research",
       description:
         "Utilizing generative AI to optimize and automate design and manufacturing processes for enhanced efficiency and creativity",
-      image: "/images/research/generative-ai-design-manufacturing.png",
+      image: "/images/research/generative-ai-design-manufacturing.webp",
       links: [
         {
           title: "Source",
@@ -387,7 +356,7 @@ export const DATA = {
       location: "Patent",
       description:
         "Creating an advanced bionic arm equipped with LiDAR technology to enhance search and rescue operations through improved navigation and object detection.",
-      image: "/images/research/bionic-arm-lidar-search-rescue.png",
+      image: "/images/research/bionic-arm-lidar-search-rescue.webp",
       links: [
         {
           title: "Source",
@@ -402,7 +371,7 @@ export const DATA = {
       location: "Patent",
       description:
         "Developing autonomous mission planning systems for drones utilizing PIXHAWK technology to optimize flight paths and enhance operational efficiency.",
-      image: "/images/research/autonomous-drone-mission-planning.png",
+      image: "/images/research/autonomous-drone-mission-planning.webp",
       links: [
         {
           title: "Source",
@@ -417,7 +386,7 @@ export const DATA = {
       location: "Patent",
       description:
         "Implementing ultrasonic technology for real-time crack detection in 3D-printed structures to ensure quality and integrity during manufacturing.",
-      image: "/images/research/3d-printing-crack-detection.png",
+      image: "/images/research/3d-printing-crack-detection.webp",
       links: [
         {
           title: "Source",
@@ -437,7 +406,7 @@ export const DATA = {
       location: "Medium | LinkedIn",
       description:
         "Exploring the intricate interplay of emotions through a scientific lens to understand their impact on behavior and decision-making.",
-      image: "/images/research/science-of-emotions.png",
+      image: "/images/research/science-of-emotions.webp",
       links: [
         {
           title: "LinkedIn",
@@ -457,7 +426,7 @@ export const DATA = {
       location: "Medium | LinkedIn",
       description:
         "Examining the influence of cognitive biases on decision-making processes to improve awareness and enhance critical thinking.",
-      image: "/images/research/cognitive-biases-decision-making.png",
+      image: "/images/research/cognitive-biases-decision-making.webp",
       links: [
         {
           title: "LinkedIn",
@@ -477,12 +446,12 @@ export const DATA = {
       location: "Research",
       description:
         "Developing an emotion-responsive smart lighting system that adapts illumination based on user emotions to create personalized and immersive environments.",
-      image: "/images/research/emotion-responsive-smart-lighting.png",
+      image: "/images/research/emotion-responsive-smart-lighting.webp",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "",
+          href: "https://github.com/ungaaaabungaaa/emotion-responsive-smart-lighting-system",
         },
       ],
     },
@@ -492,12 +461,12 @@ export const DATA = {
       location: "Research",
       description:
         "Creating a stress monitoring system for pilots to assess and manage their mental well-being, ensuring safer flight operations.",
-      image: "/images/research/stress-monitoring-pilots.png",
+      image: "/images/research/stress-monitoring-pilots.webp",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "",
+          href: "https://github.com/ungaaaabungaaa/stress-monitoring-pilots",
         },
       ],
     },
@@ -507,12 +476,12 @@ export const DATA = {
       location: "Research",
       description:
         "Developing a comprehensive monitoring system for aquaponics to optimize environmental conditions and enhance the growth of plants and fish.",
-      image: "/images/research/aquaponics-monitoring-system.png",
+      image: "/images/research/aquaponics-monitoring-system.webp",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "",
+          href: "https://github.com/ungaaaabungaaa/aquaponics-monitoring-system",
         },
       ],
     },

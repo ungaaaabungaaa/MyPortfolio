@@ -5,7 +5,7 @@ const nextConfig = {
     return [{ source: "/index.html", destination: "/", permanent: true }];
   },
   images: {
-    domains: ["images.unsplash.com"], // Add Unsplash as an allowed domain
+    unoptimized: true,
   },
 };
 

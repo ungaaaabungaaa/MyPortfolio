@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-let interval: any;
 
 type Card = {
   id: number;
@@ -25,19 +24,14 @@ export const CardStack = ({
   const [cards, setCards] = useState<Card[]>(items);
 
   useEffect(() => {
-    startFlipping();
-
-    return () => clearInterval(interval);
-  }, []);
-  const startFlipping = () => {
-    interval = setInterval(() => {
-      setCards((prevCards: Card[]) => {
-        const newArray = [...prevCards]; // create a copy of the array
-        newArray.unshift(newArray.pop()!); // move the last element to the front
-        return newArray;
+    const interval = setInterval(() => {
+      setCards((previous) => {
+        if (previous.length < 2) return previous;
+        return [previous[previous.length - 1], ...previous.slice(0, -1)];
       });
     }, 5000);
-  };
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="relative  h-60 w-60 md:h-60 md:w-96">

@@ -31,7 +31,7 @@ export function HackathonsSection({ hackathons }: HackathonsSectionProps) {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <Image
-                src="/images/decor/international-space-station.png"
+                src="/images/decor/international-space-station.webp"
                 alt="International Space Station illustration"
                 width={1600}
                 height={900}
@@ -74,7 +74,7 @@ export function HackathonsSection({ hackathons }: HackathonsSectionProps) {
             ))}
           </ul>
           <Image
-            src="/images/decor/cassini.png"
+            src="/images/decor/cassini.webp"
             alt="Cassini spacecraft illustration"
             width={1600}
             height={900}

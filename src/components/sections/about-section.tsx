@@ -11,7 +11,7 @@ type AboutSectionProps = {
 
 export function AboutSection({
   summary,
-  imageSrc = "/images/decor/firefighting-robot.png",
+  imageSrc = "/images/decor/firefighting-robot.webp",
 }: AboutSectionProps) {
   return (
     <section id="about">
@@ -19,9 +19,9 @@ export function AboutSection({
         <HyperText className="text-xl font-bold" text="About Me" duration={600} />
       </BlurFade>
       <BlurFade delay={BLUR_FADE_DELAY * 4}>
-        <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-          {summary}
-        </Markdown>
+        <div className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+          <Markdown>{summary}</Markdown>
+        </div>
         <Image
           src={imageSrc}
           alt="Firefighting robot prototype illustration"

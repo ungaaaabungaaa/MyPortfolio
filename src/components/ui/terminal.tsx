@@ -4,6 +4,7 @@ import {
   Children,
   createContext,
   useContext,
+  useCallback,
   useEffect,
   useMemo,
   useRef,
@@ -48,17 +49,9 @@ export const AnimatedSpan = ({
 
   const sequence = useSequence()
   const itemIndex = useItemIndex()
-  const [hasStarted, setHasStarted] = useState(false)
-  useEffect(() => {
-    if (!sequence || itemIndex === null) return
-    if (!sequence.sequenceStarted) return
-    if (hasStarted) return
-    if (sequence.activeIndex === itemIndex) {
-      setHasStarted(true)
-    }
-  }, [sequence?.activeIndex, sequence?.sequenceStarted, hasStarted, itemIndex])
-
-  const shouldAnimate = sequence ? hasStarted : startOnView ? isInView : true
+  const shouldAnimate = sequence
+    ? sequence.sequenceStarted && itemIndex !== null && sequence.activeIndex >= itemIndex
+    : startOnView ? isInView : true
 
   const isCompleted = sequence ? sequence.activeIndex > (itemIndex ?? -1) : false
 
@@ -83,12 +76,14 @@ export const AnimatedSpan = ({
   )
 }
 
+const typingElements = { span: motion.span, p: motion.p, div: motion.div }
+
 interface TypingAnimationProps extends MotionProps {
   children: string
   className?: string
   duration?: number
   delay?: number
-  as?: React.ElementType
+  as?: keyof typeof typingElements
   startOnView?: boolean
 }
 
@@ -105,16 +100,10 @@ export const TypingAnimation = ({
     throw new Error("TypingAnimation: children must be a string. Received:")
   }
 
-  const MotionComponent = useMemo(
-    () =>
-      motion.create(Component, {
-        forwardMotionProps: true,
-      }),
-    [Component]
-  )
+  const MotionComponent = typingElements[Component]
 
   const [displayedText, setDisplayedText] = useState<string>("")
-  const [started, setStarted] = useState(false)
+  const [standaloneStarted, setStandaloneStarted] = useState(false)
   const elementRef = useRef<HTMLElement | null>(null)
   const isInView = useInView(elementRef as React.RefObject<Element>, {
     amount: 0.3,
@@ -124,34 +113,17 @@ export const TypingAnimation = ({
   const sequence = useSequence()
   const itemIndex = useItemIndex()
 
+  const inSequence = sequence !== null && itemIndex !== null
+  const started = inSequence
+    ? sequence.sequenceStarted && sequence.activeIndex >= itemIndex
+    : standaloneStarted
+  const completeItem = sequence?.completeItem
+
   useEffect(() => {
-    if (sequence && itemIndex !== null) {
-      if (!sequence.sequenceStarted) return
-      if (started) return
-      if (sequence.activeIndex === itemIndex) {
-        setStarted(true)
-      }
-      return
-    }
-
-    if (!startOnView) {
-      const startTimeout = setTimeout(() => setStarted(true), delay)
-      return () => clearTimeout(startTimeout)
-    }
-
-    if (!isInView) return
-
-    const startTimeout = setTimeout(() => setStarted(true), delay)
+    if (inSequence || (startOnView && !isInView)) return
+    const startTimeout = setTimeout(() => setStandaloneStarted(true), delay)
     return () => clearTimeout(startTimeout)
-  }, [
-    delay,
-    startOnView,
-    isInView,
-    started,
-    sequence?.activeIndex,
-    sequence?.sequenceStarted,
-    itemIndex,
-  ])
+  }, [delay, startOnView, isInView, inSequence])
 
   useEffect(() => {
     if (!started) return
@@ -163,8 +135,8 @@ export const TypingAnimation = ({
         i++
       } else {
         clearInterval(typingEffect)
-        if (sequence && itemIndex !== null) {
-          sequence.completeItem(itemIndex)
+        if (completeItem && itemIndex !== null) {
+          completeItem(itemIndex)
         }
       }
     }, duration)
@@ -172,13 +144,13 @@ export const TypingAnimation = ({
     return () => {
       clearInterval(typingEffect)
     }
-  }, [children, duration, started])
+  }, [children, duration, started, completeItem, itemIndex])
 
   const isCompleted = sequence ? sequence.activeIndex > (itemIndex ?? -1) : false
 
   return (
     <MotionComponent
-      ref={elementRef}
+      ref={(node) => { elementRef.current = node }}
       className={cn("text-sm font-normal tracking-tight", className)}
       {...props}
     >
@@ -209,16 +181,18 @@ export const Terminal = ({
   const [activeIndex, setActiveIndex] = useState(0)
   const sequenceHasStarted = sequence ? !startOnView || isInView : false
 
+  const completeItem = useCallback((index: number) => {
+    setActiveIndex((current) => (index === current ? current + 1 : current))
+  }, [])
+
   const contextValue = useMemo<SequenceContextValue | null>(() => {
     if (!sequence) return null
     return {
-      completeItem: (index: number) => {
-        setActiveIndex((current) => (index === current ? current + 1 : current))
-      },
+      completeItem,
       activeIndex,
       sequenceStarted: sequenceHasStarted,
     }
-  }, [sequence, activeIndex, sequenceHasStarted])
+  }, [sequence, activeIndex, sequenceHasStarted, completeItem])
 
   const wrappedChildren = useMemo(() => {
     if (!sequence) return children
