@@ -158,7 +158,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <SplashScreen />
+        <SplashScreen portraitSrc={DATA.avatarUrl} />
         <div aria-hidden="true" className="pointer-events-none fixed inset-0 z-0 bg-[#110e16]">
           <Aurora colorStops={["#7cff67", "#b497cf", "#5227ff"]} speed={1} blend={0.5} amplitude={1} />
         </div>

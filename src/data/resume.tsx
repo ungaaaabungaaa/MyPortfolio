@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 import { UserRound, CalendarDays } from "lucide-react";
 
 export const DATA = {
-  name: "Muqeeth",
+  name: "Abdul Muqeeth",
   initials: "Sammy",
   fullName: "Syed Abdul Muqeeth",
   role: "AI & Behavioral Psychology Researcher",

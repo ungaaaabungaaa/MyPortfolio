@@ -1,15 +1,40 @@
-.portfolio-splash{position:fixed;inset:0;z-index:100;background:#050505;color:#f1f1ee;overflow:hidden;animation:splash-exit .5s 4.5s forwards;font-family:var(--font-sans),sans-serif;isolation:isolate}
-.splash-topline,.splash-bottomline{position:absolute;left:5vw;right:5vw;display:flex;align-items:center;justify-content:space-between;font-family:monospace;font-size:10px;letter-spacing:.16em;color:#aaa;z-index:2;gap:24px}
-.splash-topline{top:5vh;border-top:1px solid #ffffff30;padding-top:18px}.splash-bottomline{bottom:5vh;border-bottom:1px solid #ffffff30;padding-bottom:18px}
-.splash-art{position:absolute;right:5vw;top:18%;width:min(54vw,768px);height:64%;z-index:1}
-.splash-art img{width:100%;height:100%;object-fit:contain;object-position:center;opacity:1}
-.splash-copy{position:absolute;left:6vw;top:34%;max-width:36vw;z-index:2;animation:splash-copy-in .75s .1s both;text-shadow:none}
-.splash-kicker{font-family:monospace;font-size:10px;letter-spacing:.16em;color:#b6b6b3;margin:0 0 28px}.splash-statement{font-size:clamp(40px,5vw,76px);line-height:1.02;letter-spacing:-.055em;font-weight:500;margin:0}.splash-statement span{color:#9b9b98}.splash-role{font-size:13px;line-height:1.7;color:#bdbdb9;margin-top:30px;max-width:250px}
-.splash-track{width:120px;height:1px;background:#ffffff25;overflow:hidden}.splash-track div{height:100%;background:#fff;transform-origin:left;animation:splash-progress 4.5s linear both}
-@keyframes splash-progress{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.portfolio-splash{position:fixed;inset:0;z-index:100;background:#050505;color:#f1f1ee;overflow:hidden;animation:splash-fallback-exit .5s 7.5s forwards;font-family:var(--font-sans),sans-serif;isolation:isolate}
+/* Match the page column and its nested horizontal padding. */
+.splash-frame,.splash-inset{height:100%}
+.splash-content{position:relative;height:100%}
+.splash-topline{position:absolute;top:max(5vh,env(safe-area-inset-top));left:0;right:0;padding-top:18px;z-index:2;display:flex;justify-content:space-between;align-items:center}
+.splash-percent{font-family:monospace;font-size:12px;font-variant-numeric:tabular-nums;color:#aaa}
+.splash-copy{position:absolute;left:0;right:0;top:17%;z-index:2;animation:splash-copy-in .75s .1s both}
+.splash-statement{font-size:clamp(46px,8vw,64px);line-height:1.02;letter-spacing:-.055em;font-weight:500;margin:0}
+.splash-statement span{color:#9b9b98}
+.splash-word{height:32px;margin:0;color:#aaa}
+.splash-word-settled{font-family:monospace;font-size:12px;padding-top:8px}
+.splash-art{position:absolute;left:0;right:0;top:43%;width:100%;height:36%;z-index:1}
+.splash-art img{width:100%;height:100%;object-fit:contain;object-position:center}
 @keyframes splash-copy-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
-
 @keyframes splash-exit{to{opacity:0;visibility:hidden;pointer-events:none}}
 html[data-skip-intro] .portfolio-splash{display:none}
-@media(max-width:800px){.splash-topline,.splash-bottomline{left:24px;right:24px;font-size:8px;letter-spacing:.08em}.splash-topline span:last-child{display:none}.splash-copy{left:28px;right:28px;top:17%;max-width:none}.splash-kicker{font-size:8px;letter-spacing:.08em;max-width:240px;margin-bottom:18px}.splash-statement{font-size:clamp(46px,11vw,70px)}.splash-role{font-size:11px;margin-top:22px;max-width:240px}.splash-art{width:calc(100% - 40px);height:48%;right:20px;top:41%}.splash-art img{opacity:1}.splash-bottomline span:first-child{max-width:135px;line-height:1.6}.splash-track{width:65px}.splash-bottomline span:last-child{display:none}}
+@media(max-width:767px){.splash-frame{padding-inline:8px}.splash-copy{top:17%}.splash-art{top:43%;height:36%}}
 @media(prefers-reduced-motion:reduce){.portfolio-splash{display:none}}
+
+.splash-kicker{font-family:monospace;font-size:10px;letter-spacing:.16em;color:#b6b6b3;margin:0 0 18px}
+.splash-role{font-size:13px;line-height:1.7;color:#bdbdb9;margin-top:22px;max-width:320px}
+.splash-bottomline{position:absolute;left:0;right:0;bottom:max(5vh,env(safe-area-inset-bottom));font-family:monospace;font-size:10px;letter-spacing:.12em;color:#aaa;padding-bottom:18px}
+@media(max-width:767px){.splash-role{font-size:11px;max-width:240px}.splash-bottomline{font-size:8px}}
+
+.splash-progress{display:flex;align-items:center;gap:12px}
+.splash-percent{min-width:4ch;text-align:right}
+.splash-track{width:80px;height:2px;background:#ffffff25;overflow:hidden}
+.splash-track div{width:100%;height:100%;background:#eee;transform-origin:left}
+.splash-statement{white-space:pre-line;font-size:clamp(40px,7vw,60px);min-height:2.04em}
+.splash-rotate{animation:splash-copy-in .3s ease-out both}
+.splash-quote{position:absolute;left:0;right:0;top:82%;margin:0;color:#bdbdb9;font-size:12px;font-weight:300;line-height:1.6}
+.splash-quote cite{font-style:normal;white-space:nowrap;color:#858581}
+@media(max-width:767px){.splash-track{width:56px}.splash-quote{font-size:11px}}
+
+.portfolio-splash[data-ready="true"]{animation:splash-exit .5s 4.5s forwards}
+@keyframes splash-fallback-exit{to{opacity:0;visibility:hidden;pointer-events:none}}
+
+.splash-bottomline{right:auto;width:46%;font-size:10px;line-height:1.6;letter-spacing:0}
+.splash-quote{left:auto;right:0;top:auto;bottom:max(5vh,env(safe-area-inset-bottom));width:48%;padding-bottom:18px;text-align:right;font-family:monospace;font-size:10px;font-weight:400;line-height:1.6}
+@media(max-width:767px){.splash-bottomline,.splash-quote{font-size:9px}}
