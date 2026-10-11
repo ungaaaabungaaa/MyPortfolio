@@ -12,8 +12,8 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 
-const siteTitle = "Muqeeth | AI Research Engineer & Full-Stack Developer";
-const socialImage = "/images/social/og-image.jpg";
+const siteTitle = DATA.seoTitle;
+const socialImage = "/opengraph-image";
 
 export const viewport: Viewport = {
   colorScheme: "dark",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     default: siteTitle,
     template: `%s | ${DATA.name}`,
   },
-  description: DATA.description,
+  description: DATA.seoDescription,
   applicationName: "Muqeeth Portfolio",
   alternates: {
     canonical: "/",
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
   referrer: "origin-when-cross-origin",
   openGraph: {
     title: siteTitle,
-    description: DATA.description,
+    description: DATA.seoDescription,
     url: DATA.url,
     siteName: "Muqeeth Portfolio",
     locale: "en_IN",
@@ -89,7 +89,8 @@ export const metadata: Metadata = {
         url: socialImage,
         width: 1200,
         height: 630,
-        alt: "Muqeeth portfolio preview",
+        alt: "Syed Abdul Muqeeth — AI research, full-stack development, and robotics",
+        type: "image/png",
       },
     ],
   },
@@ -106,9 +107,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: siteTitle,
-    description: DATA.description,
+    description: DATA.seoDescription,
     card: "summary_large_image",
-    images: ["/images/social/twitter-image.jpg"],
+    images: [{ url: socialImage, alt: "Syed Abdul Muqeeth — AI research, full-stack development, and robotics" }],
   },
   appleWebApp: {
     capable: true,

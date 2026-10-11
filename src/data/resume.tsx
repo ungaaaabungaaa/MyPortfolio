@@ -1,10 +1,14 @@
 import { Icons } from "@/components/icons";
-import { UserRound, CalendarDays , Music } from "lucide-react";
+import { UserRound, CalendarDays, Instagram } from "lucide-react";
 
 export const DATA = {
   name: "Muqeeth",
   initials: "Sammy",
-  url: "https://syedabdulmuqeeth.com",
+  fullName: "Syed Abdul Muqeeth",
+  seoTitle: "Syed Abdul Muqeeth | AI Engineer & Full-Stack Developer",
+  seoDescription:
+    "Syed Abdul Muqeeth is an AI research engineer and full-stack developer in Bengaluru. Explore projects in AI agents, machine learning, robotics, and web development.",
+  url: "https://my-portfolio-gamma-flax.vercel.app",
   location: "Bengaluru, India",
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   description:
@@ -77,6 +81,12 @@ export const DATA = {
     email: "syed_abdul_muqeeth@proton.me",
     tel: "+91 9845000000",
     social: {
+      Instagram: {
+        name: "Instagram",
+        url: "https://www.instagram.com/ungaaaabungaaa/",
+        icon: Instagram,
+        navbar: true,
+      },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/syed-abdul-muqeeth-8173a024b/",

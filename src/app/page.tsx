@@ -19,8 +19,8 @@ const structuredData = {
       "@type": "Person",
       "@id": `${DATA.url}#person`,
       name: "Syed Abdul Muqeeth",
-      alternateName: DATA.name,
-      description: DATA.description,
+      alternateName: [DATA.name, "ungaaaabungaaa"],
+      description: DATA.seoDescription,
       url: DATA.url,
       image: `${DATA.url}${DATA.avatarUrl}`,
       jobTitle: "AI Research Engineer and Full-Stack Developer",
@@ -32,7 +32,7 @@ const structuredData = {
       sameAs: Object.values(DATA.contact.social)
         .map((social) => social.url)
         .filter((url) => !url.startsWith("mailto:")),
-      alumniOf: DATA.education.slice(0, 2).map((item) => ({
+      alumniOf: DATA.education.slice(0, 1).map((item) => ({
         "@type": "CollegeOrUniversity",
         name: item.school,
         url: item.href === "#" ? undefined : item.href,
@@ -44,22 +44,22 @@ const structuredData = {
       "@id": `${DATA.url}#website`,
       name: "Muqeeth Portfolio",
       url: DATA.url,
-      description: DATA.description,
+      description: DATA.seoDescription,
       inLanguage: "en",
     },
     {
       "@type": "ProfilePage",
       "@id": `${DATA.url}#webpage`,
       url: DATA.url,
-      name: "Muqeeth | AI Research Engineer & Full-Stack Developer",
-      description: DATA.description,
+      name: DATA.seoTitle,
+      description: DATA.seoDescription,
       isPartOf: {
         "@id": `${DATA.url}#website`,
       },
-      about: {
+      mainEntity: {
         "@id": `${DATA.url}#person`,
       },
-      primaryImageOfPage: `${DATA.url}/images/social/og-image.jpg`,
+      primaryImageOfPage: `${DATA.url}/opengraph-image`,
     },
   ],
 };
@@ -69,7 +69,7 @@ export default function Page() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }}
       />
 
       <main className="flex flex-col min-h-[100dvh] space-y-10">

@@ -69,21 +69,23 @@ export function HyperText({
   }, [text, duration, trigger, animateOnLoad]);
 
   return (
-    <div
+    <h2
       className="overflow-hidden py-2 flex cursor-default scale-100"
       onMouseEnter={triggerAnimation}
     >
+      <span className="sr-only">{text}</span>
       <AnimatePresence mode="wait">
         {displayText.map((letter, i) => (
-          <motion.h1
+          <motion.span
+            aria-hidden="true"
             key={i}
             className={cn(letter === " " ? "w-3" : "", className)} // Ensure className is applied correctly
             {...framerProps}
           >
             {letter} {/* No uppercase transformation here */}
-          </motion.h1>
+          </motion.span>
         ))}
       </AnimatePresence>
-    </div>
+    </h2>
   );
 }
