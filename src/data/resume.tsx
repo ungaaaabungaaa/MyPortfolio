@@ -62,6 +62,12 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/ungaaaabungaaa",
+        icon: Icons.github,
+        navbar: true,
+      },
       email: {
         name: "Send Email",
         url: "mailto:syed_abdul_muqeeth@proton.me",
