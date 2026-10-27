@@ -9,7 +9,7 @@ type ContactSectionProps = {
 
 export function ContactSection({ emailUrl }: ContactSectionProps) {
   return (
-    <section id="contact">
+    <section id="contact" className="pb-24">
       <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
         <BlurFade delay={BLUR_FADE_DELAY * 16}>
           <div className="space-y-3">

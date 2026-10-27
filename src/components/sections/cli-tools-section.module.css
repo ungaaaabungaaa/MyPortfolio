@@ -1,0 +1,13 @@
+/* Keep the terminal compact despite the article code styles in globals.css. */
+.terminal pre {
+  padding: 1rem 1.25rem !important;
+}
+
+.terminal code {
+  padding: 0;
+  row-gap: 0.125rem;
+  font-size: 0.8125rem;
+  line-height: 1.5 !important;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
