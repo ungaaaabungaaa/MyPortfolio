@@ -1,6 +1,7 @@
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { Terminal } from "@/components/ui/terminal";
 import { BLUR_FADE_DELAY } from "./constants";
+import styles from "./cli-tools-section.module.css";
 
 export function CLIToolsSection() {
   return (
@@ -22,52 +23,48 @@ export function CLIToolsSection() {
             </div>
           </div>
           <div className="space-y-4 w-full px-4">
-            <p className="text-sm text-muted-foreground text-center">
-              How Qeth works: choose an install method, then run a command with
-              your files. The paths below are examples.
-            </p>
-            <Terminal sequence={false} className="w-full max-w-full [&_code]:break-normal [&_code]:[overflow-wrap:anywhere] [&_code]:pl-0">
+            <Terminal sequence={false} className={`w-full max-w-full ${styles.terminal}`}>
               <span className="text-muted-foreground">
                 # Install with npm. Requires Node.js 22.18 or newer.
               </span>
               <span className="text-green-500">
                 npm install -g @ungaaaabungaaa/qeth
               </span>
-              <span className="mt-3 text-muted-foreground">
+              <span className="mt-2 text-muted-foreground">
                 # Or install with Homebrew.
               </span>
               <span className="text-green-500">
                 brew install ungaaaabungaaa/tap/qeth
               </span>
-              <span className="mt-3 text-muted-foreground">
+              <span className="mt-2 text-muted-foreground">
                 # See available commands and options.
               </span>
               <span className="text-blue-500">qeth --help</span>
-              <span className="mt-3 text-muted-foreground">
+              <span className="mt-2 text-muted-foreground">
                 # 1. Check local documents or chunk JSON for duplicates and missing fields.
               </span>
               <span className="text-blue-500">
                 qeth rag scan ./docs --json
               </span>
-              <span className="mt-3 text-muted-foreground">
+              <span className="mt-2 text-muted-foreground">
                 # 2. Summarize timings, errors, tokens, and supplied costs in a saved trace.
               </span>
               <span className="text-blue-500">
                 qeth trace ./run.json --json
               </span>
-              <span className="mt-3 text-muted-foreground">
+              <span className="mt-2 text-muted-foreground">
                 # 3. Crawl one site with page/depth limits and robots.txt checks.
               </span>
               <span className="text-blue-500">
                 qeth crawl https://example.com --max-pages 5 --max-depth 1 --json
               </span>
-              <span className="mt-3 text-muted-foreground">
+              <span className="mt-2 text-muted-foreground">
                 # 4. Plan an offline survey route from a GeoJSON polygon.
               </span>
               <span className="text-blue-500">
                 qeth mission plan ./area.geojson --spacing 20 --speed 5 --json
               </span>
-              <span className="mt-3 text-muted-foreground">
+              <span className="mt-2 text-muted-foreground">
                 # Reports print to the terminal. Add --out to save a new JSON file.
               </span>
               <span className="text-blue-500">
