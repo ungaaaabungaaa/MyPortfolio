@@ -279,7 +279,7 @@ export const DATA = {
       links: [
         {
           type: "Medium",
-          href: "#",
+          href: "https://medium.com/@ungaaaabungaaa/a-local-thought-journal-building-the-cbt-project-1829fc6f18a6",
           icon: <Icons.medium className="size-3" />,
         },
         {
