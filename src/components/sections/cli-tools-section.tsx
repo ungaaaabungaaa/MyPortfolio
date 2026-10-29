@@ -96,6 +96,14 @@ export function CLIToolsSection() {
               >
                 Homebrew
               </a>
+              <a
+                href="https://medium.com/@ungaaaabungaaa/qeth-four-local-checks-before-a-bigger-ai-workflow-4fe9ef2400c7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex min-h-11 items-center rounded-md px-2 underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4"
+              >
+                Read the Qeth article
+              </a>
             </div>
           </div>
         </BlurFade>
